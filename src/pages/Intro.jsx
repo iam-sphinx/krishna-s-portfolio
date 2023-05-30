@@ -13,7 +13,7 @@ const Intro = () => {
     
   ]);
   return (
-    <div className="h-screen bg-[#00030A] flex justify-center items-center">
+    <div className="max-h-screen bg-[#00030A] flex justify-center items-center">
       <div className="w-full h-screen flex justify-center items-center">
         <div>
         <div className="flex justify-center items-center">

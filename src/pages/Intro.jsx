@@ -10,7 +10,7 @@ const Intro = () => {
     "Coming Soon",            //English
     "ಶೀಘ್ರದಲ್ಲಿ ಬರುತ್ತದೆ",     // Kannada
     "শীঘ্ৰই আহিছে",             // Assamese
-    "Coming Soon",            //English
+    
   ]);
   return (
     <div className="h-screen bg-[#00030A] flex justify-center items-center">

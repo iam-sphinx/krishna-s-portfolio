@@ -7,6 +7,23 @@ import InfiniteScroll from "../components/InfiniteScroll";
 import Breaker from "../components/Breaker";
 
 const Contact = () => {
+  const [languages, setLanguages] = useState([
+    "नमस्ते",
+    "Hello",
+    "ਸਤਿ ਸ਼੍ਰੀ ਅਕਾਲ",
+    "নমস্কার",
+    "आदाब",
+    "प्रणाम",
+    "नमस्कार",
+    "வணக்கம்",
+    "నమస్కరం",
+    "ನಮಸ್ತೆ",
+    "ନମସ୍କାର",
+    "કેમ છો",
+    "నమస్కరం",
+    "ನಮಸ್ತೆ",
+    "ନମସ୍କାର",
+  ]);
   return (
     <div className="min-h-screen bg-[#00030a]">
       <Header />
@@ -15,13 +32,13 @@ const Contact = () => {
       </div>
       <div className="w-full h-auto px-6">
         {/* Infinite Scroll Section*/}
-        <div className="mt-[47px] md:mb-[146px] mb-[23px]">
-          {/* <InfiniteScroll /> */}
-          {/* <InfiniteScroll/> */}
+        <div className="flex justify-center items-center">
+          <div className="mt-[98px] hidden md:block mb-6 w-[572px]">
+            <InfiniteScroll array={languages} />
+          </div>
         </div>
-
         {/* content */}
-        <div className="flex justify-center items-center md:px-[127px]">
+        <div className="flex justify-center items-center md:px-[127px] mt-[87px] md:mt-0">
           <h1 className="font-Eskell_Display font-light text-[34px] md:text-[92px] md:leading-[110.4px] text-center leading-[47.6px] tracking-[1px] text-white mb-[18px] md:w-[1047px] ">
             All great things must come to an end. But...
           </h1>
@@ -36,7 +53,7 @@ const Contact = () => {
 
         {/* mail id */}
         <div className="flex justify-center items-center md:px-[127px]">
-          <div className="mt-10 mb-[133.71px] h-[55.29px] md:h-[88.13px]">
+          <div className="mb-[133.71px] md:mb-[162px] h-[55.29px] md:h-[88.13px]">
             <Mail />
           </div>
         </div>

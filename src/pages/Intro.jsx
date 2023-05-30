@@ -21,7 +21,7 @@ const Intro = () => {
             <InfiniteScroll array={languages} />
           </div>
         </div>
-        <div className="flex justify-center items-center md:mt-[30px] md:mb-[83px] mt-[32.12px] mb-[67px]">
+        <div className="flex justify-center items-center md:mt-[30px] md:mb-[83px] mt-[34.12px] mb-[67px]">
           <h1 className="md:font-normal font-Eskell_Display bg-gradient-to-b from-white  to-[#A2A3A4] md:text-[82px] md:leading-[98.4px] md:tracking-[2px] text-center  text-transparent bg-clip-text text-[40px] leading-[43.72px] tracking-[0.89px] font-extralight ">
             Krishna <span className="font-mangal">खानिकर</span>
           </h1>

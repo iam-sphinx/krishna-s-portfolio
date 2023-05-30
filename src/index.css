@@ -11,3 +11,8 @@
     font-family: GT-America-Trial;
     src: url("fonts/GT America Regular.otf") format("opentype");
   }
+
+  @font-face {
+    font-family: mangal;
+    src: url("fonts/MANGAL.ttf") format("ttf");
+  }

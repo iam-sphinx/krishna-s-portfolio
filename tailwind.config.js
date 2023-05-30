@@ -25,6 +25,7 @@ module.exports = {
       fontFamily: {
         Eskell_Display: ["Eskell-Display","sans-serif"],
         GT_America_Trial: ["GT-America-Trial","sans-serif"],
+        mangal : ["mangal", "sans-serif"]
 
       },
     },

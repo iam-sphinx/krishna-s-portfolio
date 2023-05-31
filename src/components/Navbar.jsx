@@ -4,8 +4,8 @@ import Breaker from "./Breaker";
 const Navbar = () => {
   return (
     <div>
-      <div className="w-full px-6 h-[90px] flex items-center justify-between">
-        <div className="flex gap-[14px]">
+      <div className="w-full  h-[90px] flex items-center justify-between">
+        <div className="flex items-center gap-[14px]">
           {/* Profile Info */}
           <div className="w-[37px] h-[37px] md:w-[47px] md:h-[47px]">
 
@@ -15,7 +15,7 @@ const Navbar = () => {
             <h1 className="text-white font-normal font-GT_America_Trial text-base">
               Krishna <span className="font-Mangal">खानिकर</span>
             </h1>
-            <h1 className="font-GT_America_Trial font-normal text-xs text-[#88939E]">
+            <h1 className="font-GT_America_Trial font-normal md:text-sm text-xs text-[#88939E] mt-1">
               My digital space on the cloud
             </h1>
           </div>

@@ -16,7 +16,7 @@ const InfiniteScroll = ({array}) => {
             return (
               <div
                 key={index}
-                className="ml-3 font-GT_America_Trial text-normal text-2xl text-[#47474D] flex gap-3"
+                className="ml-3 font-GT_America_Trial text-normal text-xl text-[#47474D] flex gap-3"
               >
                 {item} <img src="icons/dimond.svg" />{" "}
               </div>

@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <div className="w-full md:flex md:justify-between md:flex-row-reverse">
       <div className="md:flex md:gap-[65px]">
-        <ul className="mb-[42px] ">
+        <ul className="mb-[22px] ">
           <li className="font-GT_America_Trial font-normal text-sm md:text-base text-white mb-4 cursor-pointer">
             In this space
           </li>
@@ -35,7 +35,7 @@ const Footer = () => {
         </ul>
 
         <div>
-          <ul className="mb-5">
+          <ul className="mb-2">
             <li className="font-GT_America_Trial font-normal text-sm md:text-base text-white mb-4 cursor-pointer">
               Follow my work
             </li>
@@ -48,7 +48,7 @@ const Footer = () => {
           </ul>
 
           {/* Socials */}
-          <div className="flex gap-[10px] mb-[76.82px]">
+          <div className="flex gap-[10px] mb-[66.82px]">
             {/* instagram */}
             <div className="h-[36.18px] md:h-[45px] md:w-[45px] w-[36.18px] rounded-full border-[0.36px] border-[#88969E] flex justify-center items-center cursor-pointer">
               <img src="icons/insta.svg" alt="" />

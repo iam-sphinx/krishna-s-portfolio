@@ -4,8 +4,8 @@ import Intro from "./pages/Intro";
 function App() {
   return (
     <div>
-      {/* <Contact /> */}
-      <Intro/>
+      <Contact />
+      {/* <Intro/> */}
     </div>
   );
 }

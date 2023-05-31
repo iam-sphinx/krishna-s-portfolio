@@ -43,13 +43,13 @@ const Contact = () => {
         </div>
 
         {/* mail id */}
-        <div className="flex justify-center items-center md:px-[127px] ">
+        <div className="flex justify-center items-center md:px-[127px]">
           <div className="mb-[133.71px] md:mb-[162px] h-[55.29px] md:h-[88.13px]">
             <Mail />
           </div>
         </div>
       </div>
-      <div className="relative md:mx-[127px] ">
+      <div className="relative md:mx-[127px] mx-[24px]">
         <Breaker />
       </div>
       {/* Footer */}

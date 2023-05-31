@@ -17,32 +17,32 @@ const Footer = () => {
     <div className="w-full md:flex md:justify-between md:flex-row-reverse">
       <div className="md:flex md:gap-[65px]">
         <ul className="mb-[22px] ">
-          <li className="font-GT_America_Trial font-normal text-sm md:text-base text-white mb-4 cursor-pointer">
+          <li className="font-GT_America_Trial font-normal text-base text-white mb-3 cursor-pointer">
             In this space
           </li>
-          <li className="font-GT_America_Trial font-normal text-sm md:text-base hover:text-white text-[#88939E] mb-4 cursor-pointer">
+          <li className="font-GT_America_Trial font-normal text-base hover:text-white text-[#88939E] mb-3 cursor-pointer">
             Discover my work
           </li>
-          <li className="font-GT_America_Trial font-normal text-sm md:text-base hover:text-white text-[#88939E] mb-4 cursor-pointer">
+          <li className="font-GT_America_Trial font-normal text-base hover:text-white text-[#88939E] mb-3 cursor-pointer">
             Know more about me
           </li>
-          <li className="font-GT_America_Trial font-normal text-sm md:text-base hover:text-white text-[#88939E] mb-4 cursor-pointer ">
+          <li className="font-GT_America_Trial font-normal text-base hover:text-white text-[#88939E] mb-3 cursor-pointer ">
             Read my notes
           </li>
-          <li className="font-GT_America_Trial font-normal text-sm md:text-base hover:text-white text-[#88939E] mb-4 cursor-pointer">
+          <li className="font-GT_America_Trial font-normal text-base hover:text-white text-[#88939E] mb-3 cursor-pointer">
             Get in touch
           </li>
         </ul>
 
         <div>
           <ul className="mb-2">
-            <li className="font-GT_America_Trial font-normal text-sm md:text-base text-white mb-4 cursor-pointer">
+            <li className="font-GT_America_Trial font-normal text-base text-white mb-4 cursor-pointer">
               Follow my work
             </li>
-            <li className="font-GT_America_Trial font-normal text-sm md:text-base hover:text-white text-[#88939E] mb-4 cursor-pointer">
+            <li className="font-GT_America_Trial font-normal text-base hover:text-white text-[#88939E] mb-4 cursor-pointer">
               Subscribe to my newsletter
             </li>
-            <li className="font-GT_America_Trial font-normal text-sm md:text-base hover:text-white text-[#88939E] mb-4 cursor-pointer">
+            <li className="font-GT_America_Trial font-normal text-base hover:text-white text-[#88939E] mb-4 cursor-pointer">
               Check my Dribble shots
             </li>
           </ul>

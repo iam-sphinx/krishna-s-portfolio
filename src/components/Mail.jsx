@@ -3,7 +3,7 @@ import React from "react";
 const Mail = () => {
   return (
     <div className="w-full h-full border-[0.63px] border-dashed border-[#B2B1B2] flex justify-center items-center px-[13.8px] py-[11.29px]">
-      <div className="h-auto w-auto flex items-center">
+      <div className="h-auto  flex items-center">
         {/* circle */}
         <div className="mr-[16.31px]">
           <div className="h-[28.23px] w-[28.23px] md:w-[45px] md:h-[45px] bg-[#F4B74773] rounded-full relative">

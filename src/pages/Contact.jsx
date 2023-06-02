@@ -13,7 +13,7 @@ const Contact = () => {
     "হ্যালো",
     "नमस्ते",
     "வணக்கம்",
-    "Hello"
+    "Hello",
   ]);
   return (
     <div className="min-h-screen bg-[#00030a]">
@@ -48,9 +48,6 @@ const Contact = () => {
             <Mail />
           </div>
         </div>
-      </div>
-      <div className="relative md:mx-[127px] mx-[24px]">
-        <Breaker />
       </div>
       {/* Footer */}
       <div className="px-6 pb-[26px] md:pt-14 pt-10 md:px-[127px]">

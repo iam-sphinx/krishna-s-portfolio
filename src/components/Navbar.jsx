@@ -3,7 +3,7 @@ import Breaker from "./Breaker";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="w-full px">
       <div className="w-full  h-[90px] flex items-center justify-between">
         <div className="flex items-center gap-[14px]">
           {/* Profile Info */}
@@ -27,9 +27,7 @@ const Navbar = () => {
           <img src="icons/hamburger.svg" />
         </div>
       </div>
-      <div className="relative">
-        <Breaker />
-      </div>
+      <img src="icons/NavLine.svg" />
     </div>
   );
 };

@@ -42,7 +42,7 @@ const ProjectCard = (props) => {
                 </h1>
                 <img
                   src="icons/GreenArrow.svg"
-                  className="relative top-[0.094rem]"
+                  className="relative top-[0.590rem]"
                 />
               </div>
             </div>
@@ -51,7 +51,7 @@ const ProjectCard = (props) => {
       </div>
 
       {/* Right div */}
-      <div className="w-full border-l border-[#29333C] py-[0.688rem] pl-[0.563rem]">
+      <div className="w-full py-[0.688rem] pl-[0.563rem]">
         <div className="w-full h-full">
         <img src={props.imgSrc} className="w-full h-full object-cover"/>
 

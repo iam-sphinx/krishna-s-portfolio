@@ -8,6 +8,10 @@
     font-family: Eskell-Display;
     src: url("fonts/Eksell_Display_Large.otf") format("opentype");
   }
+@font-face {
+  font-family: GT-America-Mono-Trial;
+  src: url("fonts/GT-America-Mono-Regular.ttf");
+}
 
   @font-face {
     font-family: GT-America-Trial;

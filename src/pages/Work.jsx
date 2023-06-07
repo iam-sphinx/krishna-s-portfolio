@@ -69,7 +69,7 @@ const Work = () => {
         {workSamples.map((item, index) => {
           return (
             <div key={index}>
-              <ProjectCard title={item.title} sideTitle={item.sideTitle} imgSrc={item.imgSrc} project={item.Project} company={item.company} description={item.description} period={item.period} />
+              <ProjectCard {...item} />
             </div>
           );
         })}

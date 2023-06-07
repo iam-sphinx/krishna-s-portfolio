@@ -8,7 +8,6 @@ const InfiniteScroll = ({array}) => {
       <div className="w-full h-auto relative">
         <Marquee
           autoFill={true}
-          pauseOnHover={true}
           className="cursor-pointer"
           speed={45}
         >

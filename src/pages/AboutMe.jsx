@@ -19,7 +19,7 @@ const AboutMe = () => {
       index: "002",
       title: "Woh din bhi kya din the School am i right",
       description:
-        "I’ve shifted houses five times and changed schools three times. But the best years of my life were in my high school. I was the house captain in my school which was a big deal back then. Me and my boys planning how we'd rule the world and make a place for ourselves in it. ",
+        "I’ve shifted houses five times and changed schools three times. But the best years of my life were in my high school. I was the house captain in my school which was a big deal back then. Me and my boys planning how we'd rule the world. ",
     },
     {
       index: "003",
@@ -53,7 +53,7 @@ const AboutMe = () => {
     },
     {
       index: "008",
-      title: "“My family-my constant”",
+      title: "“My family remainsmy constant”",
       description:
         "Situations changed, my friends changed, struggles changed but my family, my support, have always been there for me. They’re my constant. My sister sees me as her role model and that brims me with happiness and I’d pick them over anything anyday.",
     },
@@ -94,7 +94,7 @@ const AboutMe = () => {
           I have documentated a couple of snippets from my interesting life.
           Give it a read
         </p>
-        <div className="flex flex-wrap justify-center items-center gap-[1.313rem]">
+        <div className="grid md:grid-cols-3 grid-cols-1  gap-[1rem]">
           {cardContent.map((item, index) => {
             return <MiniCard key={index} {...item} />;
           })}

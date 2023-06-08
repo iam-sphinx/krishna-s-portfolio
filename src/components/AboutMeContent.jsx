@@ -9,26 +9,26 @@ const AboutMeContent = () => {
             <h1 className="font-Eskell_Display font-light text-5xl text-[#86939F]">
               So who exactly is
             </h1>
-            <h1 className="font-mangal text-[5.75rem] leading-[6.9rem] font-normal text-[#F4B747] tracking-[-1px]">
+            <h1 className="font-mangal text-[5.6rem] leading-[6.9rem] font-normal text-[#F4B747] tracking-[-1px]">
               कृष्णा खानिकर
             </h1>
           </div>
           <div>
-            <p className="font-normal font-GT_America_Trial text-[1.214rem] leading-[1.456rem] text-justify text-[#86939F] mb-5">
+            <p className="font-normal font-GT_America_Trial text-[1.214rem] leading-[1.7rem] text-justify text-[#86939F] mb-5">
               Raised and brought up in Delhi, I did my schooling in Delhi and
               moved to Vellore to pursue electrical engineering at VIT Vellore.
               I’m a frontend developer and product designer who works with
               next.js, react.js, tailwind css, Figma, and blah blah.
             </p>
 
-            <p className="font-normal font-GT_America_Trial text-[1.214rem] leading-[1.456rem] text-justify text-[#86939F] mb-5">
+            <p className="font-normal font-GT_America_Trial text-[1.214rem] leading-[1.7rem] text-justify text-[#86939F] mb-5">
               The real me is someone who adapts to things in a heartbeat,
               whether life or career. Don’t worry I don't go around making
               callous decisions to f up my life. I’m quite sorted actually. I go
               out a lot to meet my friends. Sometimes that leads to partying
               together(it’s rare but counts).
             </p>
-            <p className="font-normal font-GT_America_Trial text-[1.214rem] leading-[1.456rem] text-justify text-[#86939F]">
+            <p className="font-normal font-GT_America_Trial text-[1.214rem] leading-[1.7rem] text-justify text-[#86939F]">
               In my four years of college, I was constantly traveling between
               Bangalore and Delhi since the pandemic was so erratic but that’s
               an experience not a lot get to live very often.
@@ -38,7 +38,7 @@ const AboutMeContent = () => {
 
         <div className="w-full h-full flex items-end ml-[6.438rem]">
           <div>
-            <p className="font-GT_America_Trial text-[1.214rem] leading-[1.456rem] text-justify text-[#86939F] font-normal mb-5">
+            <p className="font-GT_America_Trial text-[1.214rem] leading-[1.7rem] text-justify text-[#86939F] font-normal mb-5">
               Like any college-going student, I went for my boys' trip to
               Vietnam where I met such amiable people and annoyed the hell out
               of my parents explaining how different the people there and here
@@ -49,14 +49,14 @@ const AboutMeContent = () => {
               wherever needed.
             </p>
 
-            <p className="font-GT_America_Trial text-[1.214rem] leading-[1.456rem] text-justify text-[#86939F] font-normal mb-5">
+            <p className="font-GT_America_Trial text-[1.214rem] leading-[1.7rem] text-justify text-[#86939F] font-normal mb-5">
               I like to read. I’ve tried all the genres out there.  but still,
               I’m a huge fan of non-fiction, especially books that teach how to
               be in the top 1%. For instance, “rich dad, poor dad”, “the brief
               history of Time”, and”21 Lessons for the 21st Century” are some of
               the reads that helped me move ahead.
             </p>
-            <p className="font-GT_America_Trial text-[1.214rem] leading-[1.456rem] text-justify text-[#86939F] font-normal">
+            <p className="font-GT_America_Trial text-[1.214rem] leading-[1.7rem] text-justify text-[#86939F] font-normal">
               In the busy schedule that I willingly signed up for, I sneak out
               of home sometimes and go on long drives just to clear my head. The
               fresh breath of air and the subtle breeze ignites me to work

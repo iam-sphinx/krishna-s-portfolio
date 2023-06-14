@@ -23,9 +23,12 @@ module.exports = {
       fontFamily: {
         Eskell_Display: ["Eskell-Display", "sans-serif"],
         GT_America_Trial: ["GT-America-Trial", "sans-serif"],
-        GT_America_Mono_Trial : ["GT-America-Mono-Trial","sans-serif"],
+        GT_America_Mono_Trial: ["GT-America-Mono-Trial", "sans-serif"],
         mangal: ["mangal", "sans-serif"],
         Source_Sans_Pro: ["Source Sans Pro", "sans-serif"],
+        PlayFair_Display: ["Playfair Display", "sans-serif"],
+        Helvetica: ["Helvetica", "sans-serif"],
+        Monument_Extended: ["Monument-Extended", "sans-serif"],
       },
     },
   },

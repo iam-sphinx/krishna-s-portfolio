@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Error from "./pages/Error";
 import Work from "./pages/Work";
 import AboutMe from "./pages/AboutMe";
+import Home from "./pages/Home";
 
 const router = createBrowserRouter([
   {
@@ -19,13 +20,15 @@ const router = createBrowserRouter([
   },
   {
     path: "/work",
-    element: <Work/>
-
+    element: <Work />,
   },
   {
     path: "/about_me",
-    element: <AboutMe/>
-
+    element: <AboutMe />,
+  },
+  {
+    path: "/home",
+    element: <Home />,
   },
   {
     path: "*",

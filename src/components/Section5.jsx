@@ -31,6 +31,17 @@ const Section5 = () => {
             "linear-gradient(180deg, rgba(0, 3, 10, 0) 0%, #00030A 69.01%)",
         }}
       ></div>
+
+      <div className="w-[13.875rem] h-[2.8125rem] rounded-lg border-[0.05rem] border-[#373737] bg-[#211E21] absolute top-[27.75rem] left-[50%] translate-x-[-50%] flex justify-center items-center">
+        <div className="flex justify-center items-center gap-[0.8712rem]">
+          <h1 className="font-GT_America_Trial font-normal text-sm leading-[1.3125rem] tracking-[1%] text-center text-[#999999]">
+            Check out more projects
+          </h1>
+          <div>
+            <img src="icons/Vector (4).svg" />
+          </div>
+        </div>
+      </div>
       {/* Lines */}
       <div className="relative top-[6.6875rem] ">
         <div className="w-full h-0 border-[0.1131rem] mb-[2.875rem]  border-[#BD0D0D4D]"></div>
@@ -106,20 +117,6 @@ const Section5 = () => {
           </div>
         </div>
       </div>
-      {/* <div className="absolute bottom-[7.375rem] left-[50%] -translate-x-[50%]">
-        <div className="relative">
-          <img src="icons/back.svg" />
-          <img src="icons/note card-1.svg" className="absolute -top-[280.14px] -left-[180px]"/>
-          <img
-            src="icons/note card.svg"
-            className="absolute bottom-[4.6875rem]"
-          />
-          <img
-            src="icons/front.svg"
-            className="absolute top-[1.8438rem] -left-[1.5313rem] "
-          />
-        </div>
-      </div> */}
     </div>
   );
 };

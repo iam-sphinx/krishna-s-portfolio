@@ -3,25 +3,25 @@ import React from "react";
 const AboutMeContent = () => {
   return (
     <div className="w-full ">
-      <div className="flex justify-between ">
-        <div className="w-full h-auto flex flex-col justify-between">
-          <div>
-            <h1 className="font-Eskell_Display font-light text-5xl text-[#86939F]">
+      <div className="flex sm:flex-row flex-col sm:justify-between ">
+        <div className="w-full h-auto flex flex-col sm:justify-between">
+          <div className="sm:mb-0 mb-[41.94px]">
+            <h1 className="font-Eskell_Display font-light sm:text-5xl text-[2.125rem] leading-[4rem] text-[#86939F]">
               So who exactly is
             </h1>
-            <h1 className="font-mangal text-[5.6rem] leading-[6.9rem] font-normal text-[#F4B747] tracking-[-1px]">
+            <h1 className="font-mangal sm:text-[5.6rem] sm:leading-[6.9rem] text-[2.125rem] leading-[2.55rem] font-normal text-[#F4B747] tracking-[-1px]">
               कृष्णा खानिकर
             </h1>
           </div>
-          <div>
-            <p className="font-normal font-GT_America_Trial text-[1.214rem] leading-[1.7rem] text-justify text-[#86939F] mb-5">
+          <div className="sm:mb-0 mb-5">
+            <p className="font-normal font-GT_America_Trial sm:text-[1.214rem] sm:leading-[1.7rem] text-[1rem] leading-[1.4rem] text-justify text-[#86939F] mb-5">
               Raised and brought up in Delhi, I did my schooling in Delhi and
               moved to Vellore to pursue electrical engineering at VIT Vellore.
               I’m a frontend developer and product designer who works with
               next.js, react.js, tailwind css, Figma, and blah blah.
             </p>
 
-            <p className="font-normal font-GT_America_Trial text-[1.214rem] leading-[1.7rem] text-justify text-[#86939F] mb-5">
+            <p className="font-normal font-GT_America_Trial sm:text-[1.214rem] sm:leading-[1.7rem] text-[1rem] leading-[1.4rem] text-justify text-[#86939F] mb-5">
               The real me is someone who adapts to things in a heartbeat,
               whether life or career. Don’t worry I don't go around making
               callous decisions to f up my life. I’m quite sorted actually. I go
@@ -36,7 +36,7 @@ const AboutMeContent = () => {
           </div>
         </div>
 
-        <div className="w-full h-full flex items-end ml-[6.438rem]">
+        <div className="w-full h-full flex  sm:flex-row flex-col sm:items-end sm:ml-[6.438rem]">
           <div>
             <p className="font-GT_America_Trial text-[1.214rem] leading-[1.7rem] text-justify text-[#86939F] font-normal mb-5">
               Like any college-going student, I went for my boys' trip to

@@ -35,9 +35,11 @@ const JourneyBanner = () => {
     },
   ];
   return (
-    <div className="w-full h-auto bg-[#0D0F14] pb-[3.5rem] pr-[7.125rem] pl-[7.5rem] pt-[8.188rem]">
+    <div className="w-full h-auto bg-[#0D0F14] pb-[3.5rem] pr-[7.125rem] pl-[7.5rem] pt-[8.188rem] relative">
       <div className="flex justify-between gap-[7.063rem]">
-        <div className="flex flex-col gap-[0.875rem]">
+      <div className="flex-grow ">
+
+        <div className=" inline-block  sticky top-2 gap-[0.875rem] ">
           <h1 className="font-normal font-GT_America_Trial text-[#F4B747] tracking-[2%] text-justify text-base">
             The places i worked
           </h1>
@@ -46,6 +48,7 @@ const JourneyBanner = () => {
             everything in between.
           </p>
         </div>
+      </div>
         <div>
           {journey.map((item, index) => {
             return (

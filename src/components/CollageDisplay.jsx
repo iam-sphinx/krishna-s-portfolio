@@ -13,9 +13,9 @@ const CollageDisplay = () => {
     <div className="h-[47.063rem] w-full relative flex justify-center items-center">
       <div className="flex flex-col gap-[1.875rem] w-full ">
         <InfiniteScroll array={skills} />
+        <InfiniteScroll array={skills} direction="right" />
         <InfiniteScroll array={skills} />
-        <InfiniteScroll array={skills} />
-        <InfiniteScroll array={skills} />
+        <InfiniteScroll array={skills} direction="right"/>
       </div>
       <div className="absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] z-20  ">
         <div className="h-auto w-auto relative inline-block ">

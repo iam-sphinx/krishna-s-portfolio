@@ -24,7 +24,7 @@ const WebCard = () => {
                 className="relative left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]"
               />
             </div>
-            <h1 className="font-GT_America_Trial font-black text-[92px] leading-[120px] tracking-[1px] text-white">
+            <h1 className="font-GT_America_Trial font-black text-[5.75rem] leading-[7.5rem] tracking-[1px] text-white">
               for the web
             </h1>
           </div>

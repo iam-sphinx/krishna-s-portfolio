@@ -19,14 +19,14 @@ const WorkCard = ({ company, date, listItems, current, last }) => {
       </div>
       <div className="w-[24.313rem]">
         <div className="flex flex-col gap-[0.563rem] mb-8">
-          <h1 className="font-light font-Eskell_Display text-[2rem] heading-[2.75rem] text-white">
+          <h1 className="font-light font-Eskell_Display sm:text-[2rem] sm:leading-[2.75rem] text-[1.625rem] leading-[1.625rem] text-white">
             {company}
           </h1>
-          <h3 className="font-Source_Sans_Pro font-normal text-[1.25rem] leading-[2rem] text-[#86939F]">
+          <h3 className="font-Source_Sans_Pro font-normal sm:text-[1.25rem] sm:leading-[2rem] text-[1rem] leading-[2rem] text-[#86939F]">
             {date}
           </h3>
         </div>
-        <div className=" font-normal font-Source_Sans_Pro text-justify text-white text-[1.25rem] leading-[2rem] pl-5 min-h-[12rem] mb-[3.188rem] ">
+        <div className=" font-normal font-Source_Sans_Pro text-justify text-white sm:text-[1.25rem] sm:leading-[2rem] text-[1rem] leading-[1.2rem] pl-5 min-h-[12rem] sm:mb-[3.188rem] mb-[5.1875rem] ">
           <ul className="list-disc">
             {listItems.map((item, index) => {
               return <li key={index}>{item}</li>;

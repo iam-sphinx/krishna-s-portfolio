@@ -35,15 +35,15 @@ const JourneyBanner = () => {
     },
   ];
   return (
-    <div className="w-full h-auto bg-[#0D0F14] pb-[3.5rem] pr-[7.125rem] pl-[7.5rem] pt-[8.188rem] relative">
-      <div className="flex justify-between gap-[7.063rem]">
+    <div className="w-full h-auto bg-[#0D0F14] sm:pb-[3.5rem] sm:pr-[7.125rem] sm:pl-[7.5rem] sm:pt-[8.188rem] pt-[3.5625rem] px-6 pb-[79px] relative">
+      <div className="flex sm:flex-row flex-col sm:justify-between sm:gap-[7.063rem]">
       <div className="flex-grow ">
 
-        <div className=" inline-block  sticky top-2 gap-[0.875rem] ">
-          <h1 className="font-normal font-GT_America_Trial text-[#F4B747] tracking-[2%] text-justify text-base">
+        <div className=" inline-block  sm:sticky sm:top-2 gap-[0.875rem] sm:mb-0 mb-[3.625rem] ">
+          <h1 className="font-normal font-GT_America_Trial text-[#F4B747] tracking-[2%] text-justify sm:text-base text-sm leading-[1.05rem]">
             The places i worked
           </h1>
-          <p className="font-light font-Eskell_Display text-5xl tracking-[1px] text-white">
+          <p className="font-light font-Eskell_Display sm:text-5xl tracking-[1px] text-white text-[2.125rem] leading-[2.55rem]">
             Building things for the web focused on development, design and
             everything in between.
           </p>

@@ -11,7 +11,7 @@ const Work = () => {
       sideTitle: "FEATURED PROJECT",
       description:
         "A Web 3.0 application that allows users to send transactions through the blockchain.",
-      company: "Personal",
+      company: "KryptVault",
       period: "Nov-Dec 2023",
       Project: "See live",
       imgSrc: "icons/KryptVault.svg",
@@ -41,7 +41,7 @@ const Work = () => {
       sideTitle: "FEATURED PROJECT",
       description:
         "An e-commerce app with the ability to add and edit products on the go using Sanity, with advanced cart with complete integration with Stripe to cover real payments.",
-      company: "Paycrunch",
+      company: "Beatshop",
       period: "Nov-Dec 2023",
       Project: "See live",
       imgSrc: "icons/BeatShop.svg",
@@ -50,15 +50,15 @@ const Work = () => {
   return (
     <div className="min-h-screen bg-[#00030a] flex flex-col">
       <Header />
-      <div className="flex-[1] px-[7.25rem]">
+      <div className="flex-[1] sm:px-[7.25rem] px-6">
         <Navbar />
 
-        <div className="mt-[7.563rem] mb-[6.625rem]">
-          <h1 className="font-Eskell_Display font-light text-[5.75rem] leading-[6.875rem] tracking-[0.063rem] mb-[4.5rem] text-white max-w-[78.5rem]">
+        <div className="sm:mt-[7.563rem] mt-16 sm:mb-[6.625rem] mb-[5.25rem]">
+          <h1 className="font-Eskell_Display font-light sm:text-[5.75rem] sm:leading-[6.875rem] text-[2.125rem] leading-[2.55rem] tracking-[0.063rem] sm:mb-[4.5rem] mb-[1.125rem] text-white max-w-[78.5rem]">
             Somewhere between staring at the screen and tilting my head the
             magic is done.
           </h1>
-          <p className="font-GT_America_Trial text-2xl text-justify text-[#86939F] max-w-[54rem]">
+          <p className="font-GT_America_Trial sm:text-2xl text-base text-justify text-[#86939F] sm:max-w-[54rem] max-w-[21.375rem]">
             I specialise in crafting interfaces, products, and systems through
             close collaboration with engineers, researchers, product managers,
             and fellow designers. From concept to high-fidelity prototypes, I

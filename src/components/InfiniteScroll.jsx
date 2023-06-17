@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Marquee from "react-fast-marquee";
 
-const InfiniteScroll = ({array}) => {
+const InfiniteScroll = ({array, direction, speed}) => {
     return (
     <>
       {/* Infinite Scroll Section*/}
@@ -9,7 +9,8 @@ const InfiniteScroll = ({array}) => {
         <Marquee
           autoFill={true}
           className="cursor-pointer"
-          speed={45}
+          speed={35}
+          direction={direction}
         >
           {array.map((item, index) => {
             return (

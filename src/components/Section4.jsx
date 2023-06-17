@@ -56,16 +56,7 @@ const Section4 = () => {
             <img src="icons/Vector (3).svg" />
           </div>
 
-          <img
-            src="icons/pointer.svg"
-            className="absolute -bottom-[2.9413rem] right-[0.0975rem]"
-          />
-          <div className="w-[4.0313rem] h-[1.4769rem] py-[0.0625rem] px-[0.3125rem] bg-[#FFC700] absolute -bottom-[4.6638rem] -right-[3.75rem]">
-            <h1 className="font-medium text-[0.9025rem] leading-[1.3125rem] tracking-[1%] text-center text-[#000000CC]">
-              Krishna
-            </h1>
-          </div>
-
+          
           <div className="w-[13.875rem] h-[2.8125rem] rounded-lg border-[0.05rem] border-[#373737] bg-[#211E21] absolute -bottom-[5.6875rem] left-[50%] translate-x-[-50%] flex justify-center items-center">
             <div className="flex justify-center items-center gap-[0.8712rem]">
               <h1 className="font-GT_America_Trial font-normal text-sm leading-[1.3125rem] tracking-[1%] text-center text-[#999999]">

@@ -17,7 +17,7 @@ const WebCard = () => {
               <div className="h-full w-0 sm:border-[0.1875rem] border-[0.0956rem] border-white absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]"></div>
               <div className="w-full h-0 sm:border-[0.1875rem] border-[0.0956rem] border-white absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]"></div>
             </div>
-            <h1 className="font-GT_America_Trial font-black sm:text-[5.75rem] sm:leading-[7.5rem] text-[2.125rem] leading-[7.5rem] tracking-[1px] text-white">
+            <h1 className="font-GT_America_Trial font-black sm:text-[5.75rem] sm:leading-[7.5rem] text-[2.125rem] leading-[7.5rem]  text-white">
               for the web
             </h1>
           </div>

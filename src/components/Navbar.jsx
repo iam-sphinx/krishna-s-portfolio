@@ -1,10 +1,11 @@
 import React from "react";
 import Breaker from "./Breaker";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div>
-      <div className="w-full  h-[90px] flex items-center justify-between">
+    <div className="w-full px">
+      <div className="w-full  h-[90px] flex items-center justify-between pl-[0.688rem] pr-[2.137rem]">
         <div className="flex items-center gap-[14px]">
           {/* Profile Info */}
           <div className="w-[37px] h-[37px] md:w-[47px] md:h-[47px]">
@@ -23,13 +24,11 @@ const Navbar = () => {
 
         {/* Hamburger Menu */}
 
-        <div className="cursor-pointer">
+        <Link className="cursor-pointer" to="/sidebar">
           <img src="icons/hamburger.svg" />
-        </div>
+        </Link>
       </div>
-      <div className="relative">
-        <Breaker />
-      </div>
+      <img src="icons/NavLine.svg" />
     </div>
   );
 };

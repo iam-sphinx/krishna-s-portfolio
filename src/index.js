@@ -8,6 +8,7 @@ import Error from "./pages/Error";
 import Work from "./pages/Work";
 import AboutMe from "./pages/AboutMe";
 import Home from "./pages/Home";
+import SidebarPage from "./pages/SidebarPage";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/work",
     element: <Work />,
+  },
+  {
+    path: "/sidebar",
+    element: <SidebarPage />,
   },
   {
     path: "/about_me",

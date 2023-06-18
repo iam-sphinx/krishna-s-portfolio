@@ -1,5 +1,6 @@
 import React from "react";
 import Breaker from "./Breaker";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -23,9 +24,9 @@ const Navbar = () => {
 
         {/* Hamburger Menu */}
 
-        <div className="cursor-pointer">
+        <Link className="cursor-pointer" to="/sidebar">
           <img src="icons/hamburger.svg" />
-        </div>
+        </Link>
       </div>
       <img src="icons/NavLine.svg" />
     </div>

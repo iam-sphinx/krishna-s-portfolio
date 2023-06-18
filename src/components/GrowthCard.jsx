@@ -4,13 +4,13 @@ import GridCard from "./GridCard";
 const GrowthCard = ({title, position, role, period, location,liveLink}) => {
   return (
     <div
-      className="rounded-md w-[25.813rem] h-[28.875rem] overflow-hidden bg-[#eee7dc] pt-[2.844rem] pl-[0.875rem] pr-[1.75rem] pb-[2rem]"
+      className="rounded-md sm:w-[25.813rem] sm:h-[28.875rem] h-[20.4375rem] w-[18.27rem] overflow-hidden bg-[#eee7dc] sm:pt-[2.844rem] sm:pl-[0.875rem] sm:pr-[1.75rem] sm:pb-[2rem] pt-[2.0025rem] pl-[0.6194rem] pr-[1.2388rem] pb-[1.4156rem]"
       style={{ backgroundImage: "url(icons/cardBG.svg)" }}
     >
       <div className="w-full h-full flex">
         <div>
           <h1
-            className="font-light font-Eskell_Display text-7xl tracking-[1px] rotate-180"
+            className="font-light font-Eskell_Display sm:text-7xl text-[3rem] leading-[3.6rem] tracking-[1px] rotate-180"
             style={{ writingMode: "vertical-rl" }}
           >
             {title}
@@ -21,7 +21,7 @@ const GrowthCard = ({title, position, role, period, location,liveLink}) => {
             <img src="icons/dashLine.svg" className="" />
           </div>
           <h1
-            className="font-GT_America_Trial font-medium text-xl text-[#C0AD6F] text-transparent bg-clip-text bg-gradient-to-b from-[#C0AD6F] to-[#B99E46] rotate-180"
+            className="font-GT_America_Trial font-medium sm:text-xl text-[0.875rem] leading-[1.05rem] text-[#C0AD6F] text-transparent bg-clip-text bg-gradient-to-b from-[#C0AD6F] to-[#B99E46] rotate-180"
             style={{ writingMode: "vertical-rl" }}
           >
             {position}

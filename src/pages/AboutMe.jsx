@@ -18,17 +18,20 @@ const AboutMe = () => {
             You’ve come this far, don’t hesitate to scroll
           </h1>
         </div>
+      </div>
 
+      <div className="flex-[1] sm:px-[7.25rem]">
         {/* Display Section */}
-        <div className="mt-8 mb-8">
+        <div className="sm:mt-8 mt-[7rem] sm:mb-8 mb-[10.2788rem]">
           <CollageDisplay />
         </div>
         <div className="flex justify-center items-center">
-          <div className="w-[38.75rem] mb-[9.239rem] ">
+          <div className="w-[38.75rem] sm:mb-[9.239rem] mb-[4.5131rem] ">
             <img src="icons/NavLine.svg" />
           </div>
         </div>
-
+      </div>
+      <div className="flex-[1] sm:px-[7.25rem] px-6">
         {/* about me content */}
         <AboutMeContent />
         {/* journey banner */}

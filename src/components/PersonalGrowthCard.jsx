@@ -30,25 +30,38 @@ const PersonalGrowthCard = () => {
   ];
   return (
     <div>
-      <div className="flex flex-col gap-[1.125rem] mb-[4.063rem]">
-        <h1 className="font-Eskell_Display font-light text-white text-5xl w-[35.188rem]">
+      <div className="flex flex-col sm:gap-[1.125rem] gap-[1.375rem] mb-[4.063rem]">
+        <h1 className="font-Eskell_Display font-light text-white sm:text-5xl text-[1.5rem] leading-[1.8rem] sm:w-[35.188rem] w-[22.1875rem] sm:pr-0 pr-[0.4375rem]">
           Few of the best places I have worked in the past
         </h1>
-        <p className="font-normal text-[1.375rem] leading-[1.65rem] text-[#86939F] text-justify w-[44.375rem]">
+        <p className="font-normal sm:text-[1.375rem] sm:leading-[1.65rem] text-[1rem] leading-[1.2rem] text-[#86939F] text-justify sm:w-[44.375rem]">
           Transformative work experiences have enriched my skills, fostered
           personal growth, and allowed me to make a meaningful impact in
           exciting projects.
         </p>
       </div>
       <div className="flex gap-5 mb-[251px]">
-        <div className="relative top-[6.653rem]">
+        <div className="relative top-[6.653rem] hidden sm:block">
           <GrowthCard {...card[0]} />
         </div>
-        <div>
-          <GrowthCard {...card[1]}/>
+        <div className="hidden sm:block">
+          <GrowthCard {...card[1]} />
         </div>
-        <div className="relative bottom-[6.653rem]">
-          <GrowthCard {...card[2]}/>
+        <div className="relative bottom-[6.653rem] hidden sm:block">
+          <GrowthCard {...card[2]} />
+        </div>
+
+        {/* For Mobile Screens */}
+        <div className="flex gap-[1.1675rem] overflow-scroll">
+          <div>
+            <GrowthCard {...card[0]} />
+          </div>
+          <div>
+            <GrowthCard {...card[1]} />
+          </div>
+          <div>
+            <GrowthCard {...card[2]} />
+          </div>
         </div>
       </div>
     </div>

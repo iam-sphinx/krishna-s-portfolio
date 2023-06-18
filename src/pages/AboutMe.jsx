@@ -40,7 +40,7 @@ const AboutMe = () => {
         <JourneyBanner />
       </div>
 
-      <div className="flex-[1] sm:px-[7.25rem] px-6 sm:mb-0 mb-[13.5rem]">
+      <div className="flex-[1] sm:px-[7.25rem] px-6 mb-[13.5rem]">
         <DoYouKnowCard />
       </div>
       <div className="flex-[1] sm:px-[7.25rem] px-6 ">

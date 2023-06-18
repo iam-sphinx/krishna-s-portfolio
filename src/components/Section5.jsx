@@ -38,7 +38,7 @@ const Section5 = () => {
             Check out more projects
           </h1>
           <div className="sm:h-auto sm:w-auto h-[0.545rem] w-[0.6056rem]">
-            <img src="icons/Vector (4).svg" />
+            <img src="icons/right.svg" />
           </div>
         </div>
       </div>

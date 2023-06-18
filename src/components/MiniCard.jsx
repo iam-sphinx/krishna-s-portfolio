@@ -2,7 +2,7 @@ import React from "react";
 
 const MiniCard = ({ index, title, description }) => {
   return (
-    <div className=" w-[25.8056rem] h-[23.5rem] bg-white rounded-[2rem] p-[0.5rem]">
+    <div className=" w-[24rem] h-[24rem] bg-white rounded-[1.75rem] p-[0.5rem]">
       <div
         className="w-full h-full bg-cover rounded-[2rem] overflow-hidden relative "
         style={{ backgroundImage: "url(icons/Card.svg)" }}

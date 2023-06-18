@@ -40,7 +40,7 @@ const JourneyBanner = () => {
       <div className="flex-grow ">
 
         <div className=" inline-block  sm:sticky sm:top-2 gap-[0.875rem] sm:mb-0 mb-[3.625rem] ">
-          <h1 className="font-normal font-GT_America_Trial text-[#F4B747] tracking-[2%] text-justify sm:text-base text-sm leading-[1.05rem]">
+          <h1 className="font-normal font-GT_America_Trial text-[#F4B747] tracking-[1px] text-justify sm:text-base text-sm leading-[0.9rem] mb-2 ">
             The places i worked
           </h1>
           <p className="font-light font-Eskell_Display sm:text-5xl tracking-[1px] text-white text-[2.125rem] leading-[2.55rem]">

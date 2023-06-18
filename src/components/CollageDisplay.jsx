@@ -18,17 +18,13 @@ const CollageDisplay = () => {
         <InfiniteScroll array={skills} direction="right" />
       </div>
       <div className="absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] z-20 ">
-        <div className="h-auto w-auto relative inline-block ">
-          <img src="icons/photoFrame.svg" />
-          <div className="absolute sm:left-[-91.78px] sm:top-[272.07px] sm:w-auto w-[14.4775rem]">
-            <img src="icons/photo1.svg" className="hidden sm:block" />
-          </div>
-          <div className="absolute sm:right-[-135.49px] sm:top-[105.99px] sm:w-auto w-[14.4775rem]">
-            <img src="icons/photo2.svg" className="hidden sm:block" />
-          </div>
+        <div className="hidden sm:block">
+          <img src="icons/about hero (1).svg" />
+        </div>
+        <div className="w-[21.9288rem] block sm:hidden">
+          <img src="icons/about hero.svg" className="" />
         </div>
       </div>
-
     </div>
   );
 };

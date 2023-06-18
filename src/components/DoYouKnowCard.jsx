@@ -61,7 +61,7 @@ const DoYouKnowCard = () => {
           I have documentated a couple of snippets from my interesting life.
           Give it a read
         </p>
-        <div className="grid md:grid-cols-3 grid-cols-1  sm:gap-[1rem] gap-[2rem]">
+        <div className="flex flex-wrap sm:gap-[1.375rem] gap-[2rem] items-center justify-center">
           {cardContent.map((item, index) => {
             return <MiniCard key={index} {...item} />;
           })}

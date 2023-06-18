@@ -62,7 +62,7 @@ const CanvasCard = () => {
                 <img src="icons/WARNING_ GRAPHIC_CONTENT.svg" />
               </div>
               <div className="sm:h-auto sm:w-auto h-[1.1094rem] w-[1.1387rem]">
-                <img src="icons/vector (1).svg" />
+                <img src="icons/arrowIcon.svg" />
               </div>
             </div>
             <div className="flex gap-[21.27px] mr-[20.51px] items-center justify-center">
@@ -70,7 +70,7 @@ const CanvasCard = () => {
                 <img src="icons/WARNING_ GRAPHIC_CONTENT.svg" />
               </div>
               <div className="sm:h-auto sm:w-auto h-[1.1094rem] w-[1.1387rem]">
-                <img src="icons/vector (1).svg" />
+                <img src="icons/arrowIcon.svg" />
               </div>
             </div>
             <div className="flex gap-[21.27px] mr-[20.51px] items-center justify-center">
@@ -78,7 +78,7 @@ const CanvasCard = () => {
                 <img src="icons/WARNING_ GRAPHIC_CONTENT.svg" />
               </div>
               <div className="sm:h-auto sm:w-auto h-[1.1094rem] w-[1.1387rem]">
-                <img src="icons/vector (1).svg" />
+                <img src="icons/arrowIcon.svg" />
               </div>
             </div>
           </div>

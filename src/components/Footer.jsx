@@ -14,8 +14,10 @@ const Footer = () => {
     evalYear();
   }, []);
   return (
-    <>
-      <img src="icons/NavLine.svg" className="mb-[5.251rem]"/>
+    <><div className="w-full">
+
+      <img src="icons/NavLine.svg" className="mb-[5.251rem] w-full object-cover"/>
+    </div>
       <div className="w-full md:flex md:justify-between md:flex-row-reverse">
         <div className="md:flex md:gap-[65px]">
           <ul className="mb-[22px] ">

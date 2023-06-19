@@ -9,8 +9,11 @@ const Navbar = () => {
         <div className="flex items-center gap-[14px]">
           {/* Profile Info */}
           <div className="w-[37px] h-[37px] md:w-[47px] md:h-[47px]">
-
-          <img src="icons/profile.svg" alt="" className="w-full h-full object-cover" />
+            <img
+              src="icons/profile.svg"
+              alt=""
+              className="w-full h-full object-cover"
+            />
           </div>
           <div>
             <h1 className="text-white font-normal font-GT_America_Trial text-base">
@@ -28,7 +31,9 @@ const Navbar = () => {
           <img src="icons/hamburger.svg" />
         </Link>
       </div>
-      <img src="icons/NavLine.svg" />
+      <div className="w-full">
+        <img src="icons/NavLine.svg" className="w-full object-cover" />
+      </div>
     </div>
   );
 };

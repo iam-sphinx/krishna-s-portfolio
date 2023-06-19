@@ -10,7 +10,7 @@ import DoYouKnowCard from "../components/DoYouKnowCard";
 const AboutMe = () => {
   return (
     <div className="min-h-screen bg-[#00030a] flex flex-col">
-      <Header />
+      {/* <Header /> */}
       <div className="flex-[1] sm:px-[7.25rem] px-6">
         <Navbar />
         <div className="sm:mt-[7.563rem] mt-16">

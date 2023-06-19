@@ -17,7 +17,7 @@ const Contact = () => {
   ]);
   return (
     <div className="min-h-screen bg-[#00030a]">
-      <Header />
+      {/* <Header /> */}
       <div className="md:px-[127px] px-[24px]">
         <Navbar />
       </div>

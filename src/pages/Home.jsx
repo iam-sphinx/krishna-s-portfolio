@@ -13,7 +13,7 @@ import Footer from "../components/Footer";
 const Home = () => {
   return (
     <div className="min-h-screen bg-[#00030a] flex flex-col">
-      <Header />
+      {/* <Header /> */}
       <div className=" flex-1 sm:px-[7.25rem] px-6">
         <Navbar />
         <div className="flex justify-center items-center sm:mt-[8.355rem] mt-[6.2175rem]">

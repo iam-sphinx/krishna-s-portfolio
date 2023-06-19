@@ -52,6 +52,8 @@ const PersonalGrowthCard = () => {
         </div>
 
         {/* For Mobile Screens */}
+        <div className="block sm:hidden w-full">
+
         <div className="flex gap-[1.1675rem] overflow-scroll">
           <div>
             <GrowthCard {...card[0]} />
@@ -62,6 +64,7 @@ const PersonalGrowthCard = () => {
           <div>
             <GrowthCard {...card[2]} />
           </div>
+        </div>
         </div>
       </div>
     </div>

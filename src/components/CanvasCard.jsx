@@ -26,7 +26,7 @@ const CanvasCard = () => {
         <div className="sm:w-auto sm:h-auto w-[9.9375rem] h-[4.4031rem] absolute sm:top-[108px] sm:left-[113.25px] top-[3.1875rem] left-[1.7669rem]">
           <img src="icons/STICKER-2.svg" />
         </div>
-        <div className="absolute sm:top-[150px] sm:left-[444.25px] sm:w-[24.375rem] sm:h-[24.125rem] h-[12.0625rem] w-[12.1875rem] top-[20.0625rem] left-[1.6419rem] rounded-[2.5rem] z-10 sm:z-0">
+        <div className="absolute sm:top-[150px] sm:left-[444.25px] sm:w-[24.375rem] sm:h-[24.125rem] h-[12.0625rem] w-[12.1875rem] top-[20.0625rem] left-[1.6419rem] rounded-[2.5rem]">
           <img
             src="icons/StudioPic.svg"
             className="w-full h-full object-cover"

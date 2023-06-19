@@ -12,7 +12,7 @@ const WebCard = () => {
           <h1 className="font-PlayFair_Display font-bold italic tracking-[1px] text-white sm:text-[5.75rem] sm:leading-[7.5rem] text-[2.125rem] leading-[7.5rem] whitespace-nowrap">
             I am Building things
           </h1>
-          <div className="flex sm:gap-[4.249rem] gap-[1.5625rem] relative sm:bottom-5 bottom-[3.75rem] sm:left-[4.125rem] left-[1.625rem] items-center">
+          <div className="flex sm:gap-[4.249rem] gap-[1.5625rem] relative sm:bottom-5 bottom-[4.75rem] sm:left-[4.125rem] left-[1.625rem] items-center">
             <div className="sm:w-[2.8131rem] w-[1.4375rem] sm:h-[2.8131rem] h-[1.4375rem] relative">
               <div className="h-full w-0 sm:border-[0.1875rem] border-[0.0956rem] border-white absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]"></div>
               <div className="w-full h-0 sm:border-[0.1875rem] border-[0.0956rem] border-white absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%]"></div>

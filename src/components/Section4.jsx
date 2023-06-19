@@ -79,7 +79,7 @@ const Section4 = () => {
 
       <div className="absolute sm:top-[49.9rem] sm:w-[61.6231rem]  left-[50%] translate-x-[-50%]  top-[21.0625rem] ">
 
-      <div className="sm:h-auto h-[49.25rem] overflow-auto">
+      <div className="sm:h-auto h-[49.25rem] overflow-hidden">
 
         <div className=" items-center justify-center  flex sm:flex-wrap flex-nowrap flex-col sm:flex-row sm:gap-4 gap-5">
           {cards.map((item, index) => {

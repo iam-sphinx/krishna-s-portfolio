@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="w-full px">
-      <div className="w-full  h-[90px] flex items-center justify-between pl-[0.688rem] pr-[2.137rem]">
+    <div className="w-full">
+      <div className="w-full  h-[90px] flex items-center justify-between sm:pl-[0.688rem] sm:pr-[2.137rem]">
         <div className="flex items-center gap-[14px]">
           {/* Profile Info */}
           <div className="w-[37px] h-[37px] md:w-[47px] md:h-[47px]">

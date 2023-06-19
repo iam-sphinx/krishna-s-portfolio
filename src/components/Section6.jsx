@@ -4,8 +4,8 @@ import Marquee from "react-fast-marquee";
 const Section6 = () => {
   return (
     <div className="w-full sm:h-[68.0625rem] h-[36.5rem] sm:pt-[11.9375rem] pt-[10.0625rem]  relative overflow-hidden">
-      <div className="flex flex-col justify-center items-center sm:gap-0 gap-[1.375rem]">
-        <h1 className="font-Eskell_Display font-light sm:text-5xl sm:leading-[4.2rem] text-[1.5rem] leading-[1.8rem] tracking-[0.0625rem] text-center text-white">
+      <div className="flex flex-col sm:px-0 px-6 items-center ">
+        <h1 className="font-Eskell_Display font-light sm:text-5xl sm:leading-[4.2rem] text-[1.5rem] leading-[1.8rem] tracking-[0.0625rem] text-center text-white sm:mb-0 mb-[1.375rem]">
           Cuz life’s more than just meetings and projects
         </h1>
         <p className="sm:w-[45.875rem] text-center font-GT_America_Trial font-normal sm:text-[1.25rem] sm:leading-[1.75rem] text-[1rem] leading-[1.2rem] tracking-[1%] text-[#86939F] sm:mt-[1.875rem]">

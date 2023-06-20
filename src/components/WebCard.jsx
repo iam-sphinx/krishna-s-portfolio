@@ -6,9 +6,9 @@ const WebCard = () => {
     <CustomAnimation>
       <div className="relative">
         <div className="relative inline-block">
-          <img src="icons/heroImage.svg" />
+          <img src="icons/heroImage.svg" loading="lazy"/>
           <div className="absolute sm:top-[9.958rem] sm:-right-[11.5rem] top-[5.9138rem] -right-3 h-[1.0556rem] w-[4.0412rem] sm:h-auto sm:w-auto">
-            <img src="icons/PaperTape.svg" />
+            <img src="icons/PaperTape.svg" loading="lazy"/>
           </div>
           <div className="absolute sm:top-[10.208rem] top-[4.2263rem] sm:-left-20">
             <h1 className="font-PlayFair_Display font-bold italic tracking-[1px] text-white sm:text-[5.75rem] sm:leading-[7.5rem] text-[2.125rem] leading-[7.5rem] whitespace-nowrap">

@@ -17,7 +17,7 @@ const GreetCard = () => {
       </div>
       <div className="flex sm:flex-row flex-col-reverse gap-[4.1875rem] items-center sm:justify-between ">
         <div className="sm:w-[35.7837rem] sm:h-[34.7313rem] w-[23.0525rem] h-[22.375rem]">
-        <img src="icons/Avatar.png" className="w-full h-full object-cover" />
+        <img src="icons/Avatar.png" className="w-full h-full object-cover" loading="lazy" />
         </div>
         <div className="font-GT_America_Trial font-normal sm:text-2xl text-base leading-[1.2rem] text-justify text-[#86939F] sm:w-[38.9038rem]">
           

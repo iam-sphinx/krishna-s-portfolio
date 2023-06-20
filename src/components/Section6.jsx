@@ -20,40 +20,40 @@ const Section6 = () => {
       <div className="absolute bottom-[0.75rem] sm:w-[77.4375rem] w-full left-[50%] translate-x-[-50%]">
         <Marquee speed={35}>
           <div className="flex sm:gap-4 gap-[0.3675rem] sm:mr-4 mr-[0.3675rem]">
-            <div className="sm:w-auto sm:h-auto h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary1.svg" />
+            <div className="sm:w-[14.75rem] sm:h-[18.875rem] overflow-hidden h-[6.9313rem] w-[5.3481rem]">
+              <img src="icons/gallary1.png" />
             </div>
-            <div className="sm:w-auto sm:h-auto h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary2.svg" />
+            <div className="sm:w-[14.75rem] sm:h-[18.875rem] overflow-hidden h-[6.9313rem] w-[5.3481rem]">
+              <img src="icons/gallary2.png" />
             </div>
-            <div className="sm:w-auto sm:h-auto h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary3.svg" />
+            <div className="sm:w-[14.75rem] sm:h-[18.875rem] overflow-hidden h-[6.9313rem] w-[5.3481rem]">
+              <img src="icons/gallary3.png" />
             </div>
-            <div className="sm:w-auto sm:h-auto h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary4.svg" />
+            <div className="sm:w-[14.75rem] sm:h-[18.875rem] overflow-hidden h-[6.9313rem] w-[5.3481rem]">
+              <img src="icons/gallary4.png" />
             </div>
-            <div className="sm:w-auto sm:h-auto h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary5.svg" />
+            <div className="sm:w-[14.75rem] sm:h-[18.875rem] overflow-hidden h-[6.9313rem] w-[5.3481rem]">
+              <img src="icons/gallary5.png" />
             </div>
           </div>
         </Marquee>
 
         <Marquee direction="right" speed={35}>
           <div className="flex sm:gap-4 gap-[0.3675rem] sm:mt-4 mt-[0.7806rem] sm:mr-4 mr-[0.3675rem]">
-          <div className="sm:w-auto sm:h-auto h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary6.svg" />
+          <div className="sm:w-[14.75rem] sm:h-[18.875rem] overflow-hidden h-[6.9313rem] w-[5.3481rem]">
+              <img src="icons/gallary6.png" />
             </div>
-            <div className="sm:w-auto sm:h-auto h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary7.svg" />
+            <div className="sm:w-[14.75rem] sm:h-[18.875rem] overflow-hidden h-[6.9313rem] w-[5.3481rem]">
+              <img src="icons/gallary7.png" />
             </div>
-            <div className="sm:w-auto sm:h-auto h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary8.svg" />
+            <div className="sm:w-[14.75rem] sm:h-[18.875rem] overflow-hidden h-[6.9313rem] w-[5.3481rem]">
+              <img src="icons/gallary8.png" />
             </div>
-            <div className="sm:w-auto sm:h-auto h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary9.svg" />
+            <div className="sm:w-[14.75rem] sm:h-[18.875rem] overflow-hidden h-[6.9313rem] w-[5.3481rem]">
+              <img src="icons/gallary9.png" />
             </div>
-            <div className="sm:w-auto sm:h-auto h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary10.svg" />
+            <div className="sm:w-[14.75rem] sm:h-[18.875rem] overflow-hidden h-[6.9313rem] w-[5.3481rem]">
+              <img src="icons/gallary10.png" />
             </div>
           </div>
         </Marquee>

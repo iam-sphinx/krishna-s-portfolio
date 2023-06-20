@@ -22,7 +22,7 @@ const SidebarPage = () => {
     <div className="min-h-screen bg-[#00030a] relative">
       <Link to={route}>
         <div className="absolute sm:top-[6.6875rem] top-[6.6875rem] sm:right-[5.75rem] right-[1.6875rem] sm:h-auto sm:w-auto h-[1rem] w-[1rem]">
-          <img src="icons/Vector.svg" />
+          <img src="icons/Vector.svg" loading="lazy"/>
         </div>
       </Link>
 

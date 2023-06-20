@@ -17,7 +17,7 @@ const GrowthCard = ({ title, position, role, period, location, liveLink }) => {
           </h1>
           <div className=" flex flex-col gap-4 sm:mr-[1.594rem] sm:ml-[0.281rem] ml-[0.3181rem]">
             <div className="flex justify-center items-center">
-              <img src="icons/dashLine.svg" className="" />
+              <img src="icons/dashLine.svg" className="" loading="lazy"/>
             </div>
             <h1
               className="font-GT_America_Trial font-medium sm:text-xl text-[0.875rem] leading-[1.05rem] text-[#C0AD6F] text-transparent bg-clip-text bg-gradient-to-b from-[#C0AD6F] to-[#B99E46] rotate-180"
@@ -26,7 +26,7 @@ const GrowthCard = ({ title, position, role, period, location, liveLink }) => {
               {position}
             </h1>
             <div className="flex justify-center items-center">
-              <img src="icons/dashLine.svg" className="" />
+              <img src="icons/dashLine.svg" className="" loading="lazy"/>
             </div>
           </div>
         </div>

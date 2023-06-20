@@ -8,7 +8,7 @@ const Header = () => {
           Introducing Pilcrow, a newsletter dedicated to designers and makers
         </span>
         <span className="md:hidden">Introducing Pilcrow</span>
-        <img src="icons/arrow.svg" alt=""/>
+        <img src="icons/arrow.svg" alt="" loading="lazy"/>
       </button>
     </div>
   );

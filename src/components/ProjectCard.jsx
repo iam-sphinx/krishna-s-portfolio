@@ -43,7 +43,7 @@ const ProjectCard = (props) => {
                   <h1 className=" sm:text-[1.25rem] sm:leading-[2rem] text-[1rem] leading-[1rem] text-white sm:mt-0 mt-[0.625rem] whitespace-nowrap underline cursor-pointer">
                     {props.Project}
                   </h1>
-                  <img src="icons/GreenArrow.svg" className="" />
+                  <img src="icons/GreenArrow.svg" className="" loading="lazy"/>
                 </div>
               </div>
             </div>
@@ -54,7 +54,7 @@ const ProjectCard = (props) => {
       {/* Right div */}
       <div className="w-full py-[0.688rem] pl-[0.563rem]">
         <div className="w-full h-full">
-          <img src={props.imgSrc} className="w-full h-full object-cover" />
+          <img src={props.imgSrc} className="w-full h-full object-cover" loading="lazy" />
         </div>
       </div>
     </div>

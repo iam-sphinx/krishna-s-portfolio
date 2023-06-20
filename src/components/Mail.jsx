@@ -33,7 +33,7 @@ const Mail = () => {
           onClick={() => handleCopyClick()}
           className="w-[32.7px] h-[32.7px] md:h-[52.13px] md:w-[52.13px] rounded-[2.1px] flex justify-center items-center bg-[#B2B1B224]"
         >
-          <img src="icons/paste.svg" alt="" />
+          <img src="icons/paste.svg" alt="" loading="lazy"/>
         </button>
       </div>
     </div>

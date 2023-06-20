@@ -16,7 +16,7 @@ const GreetCard = () => {
         </Slide>
       </div>
       <div className="flex sm:flex-row flex-col-reverse sm:gap-[5.313rem] gap-[4.1875rem] items-center ">
-        <img src="icons/Avatar.svg" />
+        <img src="icons/Avatar.png" />
         <div className="font-GT_America_Trial font-normal sm:text-2xl text-base leading-[1.2rem] text-justify text-[#86939F]">
           <Fade direction="right" cascade damping={1} triggerOnce>
             <p className="mb-5">

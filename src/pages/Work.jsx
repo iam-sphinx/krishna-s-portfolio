@@ -14,7 +14,7 @@ const Work = () => {
       company: "KryptVault",
       period: "Nov-Dec 2023",
       Project: "See live",
-      imgSrc: "icons/KryptVault.svg",
+      imgSrc: "icons/KryptVault.png",
     },
     {
       title: "Vellbe.life",
@@ -24,7 +24,7 @@ const Work = () => {
       company: "Vellbe life",
       period: "Nov-Dec 2022",
       Project: "See live",
-      imgSrc: "icons/VellbeLife.svg",
+      imgSrc: "icons/VellbeLife.png",
     },
     {
       title: "Virgo",
@@ -34,7 +34,7 @@ const Work = () => {
       company: "Virgo",
       period: "Jan-Nov 2021",
       Project: "See live",
-      imgSrc: "icons/Virgo.svg",
+      imgSrc: "icons/Virgo.png",
     },
     {
       title: "Beatshop",
@@ -44,7 +44,7 @@ const Work = () => {
       company: "Beatshop",
       period: "Nov-Dec 2023",
       Project: "See live",
-      imgSrc: "icons/BeatShop.svg",
+      imgSrc: "icons/BeatShop.png",
     },
   ];
   return (

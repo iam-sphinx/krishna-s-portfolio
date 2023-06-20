@@ -22,7 +22,7 @@ const Footer = () => {
       <img src="icons/NavLine.svg" className="mb-[5.251rem] w-full object-cover"/>
     </div>
     <Fade duration={1000} triggerOnce>
-      <div className="w-full md:flex md:justify-between md:flex-row-reverse">
+      <div className="w-full md:flex md:justify-between md:flex-row-reverse sm:mb-0 mb-6">
         <div className="md:flex md:gap-[65px]">
           <ul className="mb-[22px] ">
             <li className="font-GT_America_Trial font-normal text-base text-white mb-3 cursor-pointer">

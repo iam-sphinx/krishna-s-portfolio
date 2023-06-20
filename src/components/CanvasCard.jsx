@@ -24,16 +24,16 @@ const CanvasCard = () => {
       {/* stickers */}
       <div className="sm:h-[41rem] h-[44.1875rem] relative border-b-[0.0338rem] border-white ">
         <div className="sm:w-auto sm:h-auto w-[9.9375rem] h-[4.4031rem] absolute sm:top-[108px] sm:left-[113.25px] top-[3.1875rem] left-[1.7669rem]">
-          <img src="icons/STICKER-2.svg" />
+          <img src="icons/STICKER-2.png" />
         </div>
         <div className="absolute sm:top-[150px] sm:left-[444.25px] sm:w-[24.375rem] sm:h-[24.125rem] h-[12.0625rem] w-[12.1875rem] top-[20.0625rem] left-[1.6419rem] rounded-[2.5rem]">
           <img
-            src="icons/StudioPic.svg"
+            src="icons/StudioPic.png"
             className="w-full h-full object-cover"
           />
         </div>
         <div className="sm:h-auto sm:w-auto w-[10.1638rem] h-[7.9706rem] absolute top-[9.9938rem] sm:top-[16.9375rem] sm:left-[5.2669rem] left-[8.3919rem]">
-          <img src="icons/Plane.svg" />
+          <img src="icons/Plane.png" />
         </div>
 
         {/* <img
@@ -45,13 +45,13 @@ const CanvasCard = () => {
         </div>
 
         <div className="absolute sm:top-[168.64px] sm:right-[85.54px] sm:h-auto sm:w-auto h-[3.7788rem] w-[12.275rem] right-[1.3738rem] top-[33.3125rem]">
-          <img src="icons/sticker-one-yellow.svg" />
+          <img src="icons/sticker-one-yellow.png" />
         </div>
         <div className="absolute sm:top-[323px] sm:right-[235.17px] sm:h-auto sm:w-auto w-[6.3669rem] h-[6.3669rem] top-[36.8125rem] right-[14.3831rem]">
-          <img src="icons/STICKER-3 1.svg" />
+          <img src="icons/STICKER-3 1.png" />
         </div>
         <div className=" sm:h-auto sm:w-auto w-[5.3219rem] h-[5.195rem] absolute sm:top-[20.125rem] top-[1.9375rem] sm:right-[1.75rem] right-[1.4281rem]">
-          <img src="icons/Sticker 1.svg" />
+          <img src="icons/Sticker 1.png" />
         </div>
       </div>
       <div>

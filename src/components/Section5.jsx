@@ -141,19 +141,19 @@ const Section5 = () => {
         <div className="relative">
           <img src="icons/mobileBack.svg" />
           <img
-            src="icons/mobileNoteCard2.svg"
+            src="icons/mobileNoteCard2.png"
             className=" absolute -top-[11.1175rem] -left-[4.1912rem]"
           />
           <img
-            src="icons/mobileNoteCard1.svg"
+            src="icons/mobileNoteCard1.png"
             className=" absolute bottom-[2.1925rem]"
           />
           <img
-            src="icons/mobileNoteCard3.svg"
+            src="icons/mobileNoteCard3.png"
             className=" absolute -top-[11.5756rem] left-[4.9212rem]"
           />
           <img
-            src="icons/mobileFront.svg"
+            src="icons/mobileFront.png"
             className="absolute bottom-0 -left-[0.7375rem]"
           />
         </div>

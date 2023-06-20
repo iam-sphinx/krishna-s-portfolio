@@ -25,7 +25,7 @@ const CollageDisplay = () => {
           <img src="icons/about hero (1).svg" />
         </div>
         <div className="w-[21.9288rem] block sm:hidden">
-          <img src="icons/about hero.svg" className="" />
+          <img src="icons/about hero (2).png" className="" />
         </div>
       </div>
     </div>

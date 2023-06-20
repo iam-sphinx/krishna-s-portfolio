@@ -16,7 +16,7 @@ const HeroCard = () => {
           </Marquee>
         </div>
         <div className=" relative z-10 sm:w-auto sm:h-auto w-[15.7825rem] h-[27.4375rem]">
-          <img src="icons/heroCard.svg" />
+          <img src="icons/heroCard.png" />
         </div>
       </div>
   );

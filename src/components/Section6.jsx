@@ -21,19 +21,19 @@ const Section6 = () => {
         <Marquee speed={35}>
           <div className="flex sm:gap-4 gap-[0.3675rem] sm:mr-4 mr-[0.3675rem]">
             <div className="sm:w-auto sm:h-auto h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary1.svg" />
+              <img src="icons/gallary1.png" />
             </div>
             <div className="sm:w-auto sm:h-auto h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary2.svg" />
+              <img src="icons/gallary2.png" />
             </div>
             <div className="sm:w-auto sm:h-auto h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary3.svg" />
+              <img src="icons/gallary3.png" />
             </div>
             <div className="sm:w-auto sm:h-auto h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary4.svg" />
+              <img src="icons/gallary4.png" />
             </div>
             <div className="sm:w-auto sm:h-auto h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary5.svg" />
+              <img src="icons/gallary5.png" />
             </div>
           </div>
         </Marquee>
@@ -41,19 +41,19 @@ const Section6 = () => {
         <Marquee direction="right" speed={35}>
           <div className="flex sm:gap-4 gap-[0.3675rem] sm:mt-4 mt-[0.7806rem] sm:mr-4 mr-[0.3675rem]">
           <div className="sm:w-auto sm:h-auto h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary6.svg" />
+              <img src="icons/gallary6.png" />
             </div>
             <div className="sm:w-auto sm:h-auto h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary7.svg" />
+              <img src="icons/gallary7.png" />
             </div>
             <div className="sm:w-auto sm:h-auto h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary8.svg" />
+              <img src="icons/gallary8.png" />
             </div>
             <div className="sm:w-auto sm:h-auto h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary9.svg" />
+              <img src="icons/gallary9.png" />
             </div>
             <div className="sm:w-auto sm:h-auto h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary10.svg" />
+              <img src="icons/gallary10.png" />
             </div>
           </div>
         </Marquee>

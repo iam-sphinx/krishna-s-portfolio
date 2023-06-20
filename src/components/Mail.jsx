@@ -1,6 +1,16 @@
-import React from "react";
+import React, { useRef } from "react";
+import Clipboard from "clipboard";
 
 const Mail = () => {
+  const copyButtonRef = useRef(null);
+
+  const handleCopyClick = () => {
+    // Use the clipboard package to copy the text to the clipboard
+    const clipboard = new Clipboard(copyButtonRef.current, {
+      text: () => "krishnakhanikarkhanikar.com",
+    });
+  };
+
   return (
     <div className="w-full h-full border-[0.63px] border-dashed border-[#B2B1B2] flex justify-center items-center px-[13.8px] py-[11.29px]">
       <div className="h-auto  flex items-center">
@@ -18,10 +28,13 @@ const Mail = () => {
         </h1>
 
         {/* paste */}
-        <div className="w-[32.7px] h-[32.7px] md:h-[52.13px] md:w-[52.13px] rounded-[2.1px] flex justify-center items-center bg-[#B2B1B224]">
-        <img src="icons/paste.svg" alt="" />
-
-        </div>
+        <button
+          ref={copyButtonRef}
+          onClick={() => handleCopyClick()}
+          className="w-[32.7px] h-[32.7px] md:h-[52.13px] md:w-[52.13px] rounded-[2.1px] flex justify-center items-center bg-[#B2B1B224]"
+        >
+          <img src="icons/paste.svg" alt="" />
+        </button>
       </div>
     </div>
   );

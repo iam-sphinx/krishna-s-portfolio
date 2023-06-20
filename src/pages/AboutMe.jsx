@@ -10,7 +10,7 @@ import { Fade, Slide } from "react-awesome-reveal";
 
 const AboutMe = () => {
   return (
-    <div className="min-h-screen bg-[#00030a] flex flex-col">
+    <div className="min-h-screen overflow-x-hidden bg-[#00030a] flex flex-col">
       {/* <Header /> */}
       <div className="flex-[1] sm:px-[7.25rem] px-6">
         <Navbar />

@@ -7,14 +7,17 @@ const Section4 = () => {
     {
       title: "KryptVault",
       desc: "Blockchain crypto-trading",
+      link: "https://github.com/krishnakhanikar11/krypt",
     },
     {
       title: "Beatshop",
       desc: "E-Commerce website",
+      link: "https://github.com/krishnakhanikar11/beatShop-Ecommerce",
     },
     {
       title: "Vellbe",
       desc: "Wellness center",
+      link: "https://github.com/krishnakhanikar11/vellbeFinal"
     },
     {
       title: "Virgo",

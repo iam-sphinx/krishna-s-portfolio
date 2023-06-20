@@ -16,7 +16,7 @@ const Contact = () => {
     "Hello",
   ]);
   return (
-    <div className="min-h-screen bg-[#00030a]">
+    <div className="min-h-screen overflow-x-hidden bg-[#00030a]">
       {/* <Header /> */}
       <div className="md:px-[127px] px-[24px]">
         <Navbar />

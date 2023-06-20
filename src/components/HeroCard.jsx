@@ -1,11 +1,13 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
+import CustomAnimation from "../utils/customAnimation";
 
 const HeroCard = () => {
   return (
+    <CustomAnimation>
       <div className="relative flex flex-col justify-center items-center">
         <div className="absolute bottom-[6.75rem] w-full hidden sm:block">
-          <Marquee>
+          <Marquee direction="right">
             <img src="icons/scroll.png" className="w-[100vw]" />
           </Marquee>
         </div>
@@ -19,6 +21,7 @@ const HeroCard = () => {
           <img src="icons/heroCard.png" />
         </div>
       </div>
+    </CustomAnimation>
   );
 };
 

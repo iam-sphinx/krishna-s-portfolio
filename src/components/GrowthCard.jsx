@@ -4,10 +4,10 @@ import GridCard from "./GridCard";
 const GrowthCard = ({ title, position, role, period, location, liveLink }) => {
   return (
     <div
-      className="rounded-md sm:w-[25.813rem] sm:h-[28.875rem] h-[20.4375rem] w-[18.27rem] overflow-hidden bg-[#eee7dc] sm:pt-[2.844rem] sm:pl-[0.875rem] sm:pr-[1.75rem] sm:pb-[2rem] pt-[2.0025rem] pl-[0.6194rem] pr-[1.2388rem] pb-[1.4156rem]"
+      className="rounded-md sm:w-[25.813rem] sm:h-[28.875rem] h-[20.4375rem] w-[18.27rem] overflow-hidden bg-[#eee7dc] sm:pt-[2.844rem] sm:pl-[0.875rem] sm:pr-[1.75rem] sm:pb-[2rem] pt-[2.0025rem] pl-[0.6194rem] pr-[1.2388rem]"
       style={{ backgroundImage: "url(icons/cardBG.svg)" }}
     >
-      <div className="w-full h-full flex justify-between">
+      <div className="w-full h-full flex justify-between ">
         <div className="flex items-start">
           <h1
             className="font-light font-Eskell_Display sm:text-7xl text-[3rem] leading-[3.6rem] tracking-[1px] rotate-180"
@@ -15,7 +15,7 @@ const GrowthCard = ({ title, position, role, period, location, liveLink }) => {
           >
             {title}
           </h1>
-          <div className=" flex flex-col gap-4 mr-[1.594rem] ml-[0.281rem]">
+          <div className=" flex flex-col gap-4 sm:mr-[1.594rem] sm:ml-[0.281rem] ml-[0.3181rem]">
             <div className="flex justify-center items-center">
               <img src="icons/dashLine.svg" className="" />
             </div>

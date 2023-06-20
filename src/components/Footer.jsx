@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Fade, Slide } from "react-awesome-reveal";
 
 const Footer = () => {
   const [date, setDate] = useState(new Date());
@@ -14,10 +15,13 @@ const Footer = () => {
     evalYear();
   }, []);
   return (
-    <><div className="w-full">
+    <>
+
+    <div className="w-full">
 
       <img src="icons/NavLine.svg" className="mb-[5.251rem] w-full object-cover"/>
     </div>
+    <Fade duration={1000} triggerOnce>
       <div className="w-full md:flex md:justify-between md:flex-row-reverse">
         <div className="md:flex md:gap-[65px]">
           <ul className="mb-[22px] ">
@@ -76,6 +80,7 @@ const Footer = () => {
           </h1>
         </div>
       </div>
+    </Fade>
     </>
   );
 };

@@ -10,7 +10,10 @@ const CollageDisplay = () => {
     "TailwindCSS",
   ];
   return (
-    <div className="sm:h-[47.063rem] h-auto w-full relative flex justify-center items-center">
+    <div
+     
+      className="sm:h-[47.063rem] h-auto w-full relative flex justify-center items-center"
+    >
       <div className="flex flex-col sm:gap-[1.875rem] gap-[0.8612rem] w-full ">
         <InfiniteScroll array={skills} />
         <InfiniteScroll array={skills} direction="right" />

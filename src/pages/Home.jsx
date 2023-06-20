@@ -10,6 +10,7 @@ import Section4 from "../components/Section4";
 import Section5 from "../components/Section5";
 import Section6 from "../components/Section6";
 import Footer from "../components/Footer";
+import { Fade } from "react-awesome-reveal";
 const Home = () => {
   return (
     <div className="min-h-screen bg-[#00030a] flex flex-col">
@@ -23,10 +24,11 @@ const Home = () => {
       <div className="relative sm:bottom-32 bottom-12 sm:mb-[5.063rem] mb-[2.3344rem]">
         <HeroCard />
       </div>
+      <div className="flex-1 sm:px-[7.25rem] px-6 mb-[9.019rem]">
+        <GreetCard />
+      </div>
+      
       <div className="flex-1 sm:px-[7.25rem] px-6">
-        <div className="mb-[9.019rem]">
-          <GreetCard />
-        </div>
         <PersonalGrowthCard />
       </div>
 

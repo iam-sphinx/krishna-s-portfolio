@@ -6,7 +6,7 @@ const HeroCard = () => {
       <div className="relative flex flex-col justify-center items-center">
         <div className="absolute bottom-[6.75rem] w-full hidden sm:block">
           <Marquee>
-            <img src="icons/scroll.svg" className="w-[100vw]" />
+            <img src="icons/scroll.png" className="w-[100vw]" />
           </Marquee>
         </div>
 
@@ -15,8 +15,8 @@ const HeroCard = () => {
             <img src="icons/infiniteScrollMAIN.svg" className="w-[100vw]" />
           </Marquee>
         </div>
-        <div className=" relative z-10 sm:w-auto sm:h-auto w-[15.7825rem] h-[27.4375rem]">
-          <img src="icons/heroCard.svg" />
+        <div className=" relative z-10 sm:w-[24.375rem] sm:h-[42.375rem] w-[15.7825rem] h-[27.4375rem]">
+          <img src="icons/heroCard.png" />
         </div>
       </div>
   );

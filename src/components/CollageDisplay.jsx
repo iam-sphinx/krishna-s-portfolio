@@ -22,10 +22,10 @@ const CollageDisplay = () => {
       </div>
       <div className="absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] z-20 ">
         <div className="hidden sm:block">
-          <img src="icons/about hero (1).svg" />
+          <img src="icons/about hero.png" />
         </div>
         <div className="w-[21.9288rem] block sm:hidden">
-          <img src="icons/about hero.svg" className="" />
+          <img src="icons/about hero1.png" className="" />
         </div>
       </div>
     </div>

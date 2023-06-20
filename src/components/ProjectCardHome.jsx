@@ -36,8 +36,8 @@ const ProjectCardHome = ({title,desc}) => {
       </h1>
 
       <div className="flex-grow bg-[#2C2C2C] flex  items-center  gap-[11.63px] px-[1.2119rem]">
-        <div>
-          <img src="icons/penImage.svg" />
+        <div className="w-[2.06rem] h-[2.8094rem]">
+          <img src="icons/penIcon.png" />
         </div>
         <div>
             <h1 className="font-GT_America_Trial font-normal text-[0.9694rem] leading-[1.9387rem] text-white">{title}</h1>

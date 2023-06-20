@@ -15,10 +15,12 @@ const GreetCard = () => {
           </p>
         </Slide>
       </div>
-      <div className="flex sm:flex-row flex-col-reverse sm:gap-[5.313rem] gap-[4.1875rem] items-center ">
-        <img src="icons/Avatar.svg" />
-        <div className="font-GT_America_Trial font-normal sm:text-2xl text-base leading-[1.2rem] text-justify text-[#86939F]">
-          <Fade direction="right" cascade damping={1} triggerOnce>
+      <div className="flex sm:flex-row flex-col-reverse gap-[4.1875rem] items-center sm:justify-between ">
+        <div className="sm:w-[35.7837rem] sm:h-[34.7313rem] w-[23.0525rem] h-[22.375rem]">
+        <img src="icons/Avatar.png" className="w-full h-full object-cover" />
+        </div>
+        <div className="font-GT_America_Trial font-normal sm:text-2xl text-base leading-[1.2rem] text-justify text-[#86939F] sm:w-[38.9038rem]">
+          
             <p className="mb-5">
               Welcome to my world of Development, Product UI Systems, Design,
               and User Experience! Here, I passionately focus on these areas,
@@ -32,7 +34,7 @@ const GreetCard = () => {
               engage in meaningful conversations and explore new possibilities
               together!
             </p>
-          </Fade>
+          
         </div>
       </div>
     </div>

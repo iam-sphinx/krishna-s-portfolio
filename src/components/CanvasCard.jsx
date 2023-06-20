@@ -23,34 +23,34 @@ const CanvasCard = () => {
 
       {/* stickers */}
       <div className="sm:h-[41rem] h-[44.1875rem] relative border-b-[0.0338rem] border-white ">
-        <div className="sm:w-auto sm:h-auto w-[9.9375rem] h-[4.4031rem] absolute sm:top-[108px] sm:left-[113.25px] top-[3.1875rem] left-[1.7669rem]">
-          <img src="icons/STICKER-2.svg" />
+        <div className="sm:w-[11.9375rem] sm:h-[5.2894rem] w-[9.9375rem] h-[4.4031rem] absolute sm:top-[108px] sm:left-[113.25px] top-[3.1875rem] left-[1.7669rem]">
+          <img src="icons/STICKER-2.png" />
         </div>
-        <div className="absolute sm:top-[150px] sm:left-[444.25px] sm:w-[24.375rem] sm:h-[24.125rem] h-[12.0625rem] w-[12.1875rem] top-[20.0625rem] left-[1.6419rem] rounded-[2.5rem]">
+        <div className="absolute sm:top-[9.375rem] sm:left-[27.7656rem] sm:w-[24.375rem] sm:h-[24.125rem] h-[12.0625rem] w-[12.1875rem] top-[20.0625rem] left-[1.6419rem] rounded-[2.5rem]">
           <img
-            src="icons/StudioPic.svg"
+            src="icons/StudioPic.png"
             className="w-full h-full object-cover"
           />
         </div>
-        <div className="sm:h-auto sm:w-auto w-[10.1638rem] h-[7.9706rem] absolute top-[9.9938rem] sm:top-[16.9375rem] sm:left-[5.2669rem] left-[8.3919rem]">
-          <img src="icons/Plane.svg" />
+        <div className="sm:h-[14.1219rem] sm:w-[18.0081rem] w-[10.1638rem] h-[7.9706rem] absolute top-[9.9938rem] sm:top-[16.9375rem] sm:left-[5.2669rem] left-[8.3919rem]">
+          <img src="icons/Plane.png" />
         </div>
 
         {/* <img
           src="icons/Rectangle1.svg"
           className="absolute top-[249.32px] left-[84.27px]"
         /> */}
-        <div className="absolute sm:top-[6.1875rem] sm:left-[371.27px] sm:h-auto sm:w-auto h-[4.3906rem] w-[3.7769rem] top-[18.875rem] left-[10.8919rem]">
-          <img src="icons/ReactIcon.svg" />
+        <div className="absolute sm:top-[6.1875rem] sm:left-[371.27px] sm:h-[8.9881rem] sm:w-[8.9881rem] h-[4.3906rem] w-[3.7769rem] top-[18.875rem] left-[10.8919rem]">
+          <img src="icons/ReactIcon.png" />
         </div>
 
-        <div className="absolute sm:top-[168.64px] sm:right-[85.54px] sm:h-auto sm:w-auto h-[3.7788rem] w-[12.275rem] right-[1.3738rem] top-[33.3125rem]">
+        <div className="absolute sm:top-[168.64px] sm:right-[85.54px] sm:h-[20.2494rem] sm:w-[20.2494rem] h-[3.7788rem] w-[12.275rem] right-[1.3738rem] top-[33.3125rem]">
           <img src="icons/sticker-one-yellow.svg" />
         </div>
-        <div className="absolute sm:top-[323px] sm:right-[235.17px] sm:h-auto sm:w-auto w-[6.3669rem] h-[6.3669rem] top-[36.8125rem] right-[14.3831rem]">
-          <img src="icons/STICKER-3 1.svg" />
+        <div className="absolute sm:top-[323px] sm:right-[235.17px] sm:h-[12.5625rem] sm:w-[12.5625rem] w-[6.3669rem] h-[6.3669rem] top-[36.8125rem] right-[14.3831rem]">
+          <img src="icons/STICKER-3 1.png" />
         </div>
-        <div className=" sm:h-auto sm:w-auto w-[5.3219rem] h-[5.195rem] absolute sm:top-[20.125rem] top-[1.9375rem] sm:right-[1.75rem] right-[1.4281rem]">
+        <div className=" sm:h-[13.375rem] sm:w-[13.375rem] w-[5.3219rem] h-[5.195rem] absolute sm:top-[20.125rem] top-[1.9375rem] sm:right-[1.75rem] right-[1.4281rem]">
           <img src="icons/Sticker 1.svg" />
         </div>
       </div>

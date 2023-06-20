@@ -104,58 +104,23 @@ const Section5 = () => {
         </p>
       </div>
       {/* files cards */}
-      <div className="absolute bottom-[7.375rem] left-[50%] -translate-x-[50%] hidden sm:block">
+      <div className="absolute sm:bottom-[7.375rem] bottom-0 left-[50%] -translate-x-[50%] ">
         <div className="relative">
-          <div>
-            <img src="icons/back.svg" />
+          <div className="sm:w-[21.0625rem] sm:h-[15rem] w-[9.8625rem] h-[7.0237rem]">
+            <img src="icons/back.png" />
           </div>
-          <div>
-            <img
-              src="icons/note card-1.svg"
-              className="absolute bottom-0 sm:-top-[17.5081rem] -left-[9.875rem]"
-            />
+          <div className="sm:w-[18.5575rem] sm:h-[21.79rem] w-[8.6894rem] h-[10.2031rem] absolute sm:bottom-0 sm:-top-[17.5081rem] sm:-left-[9.875rem] -top-[11.1175rem] -left-[4.1912rem]">
+            <img src="icons/note card-2.png" />
           </div>
-          <div>
-            <img
-              src="icons/note card-2.svg"
-              className="absolute bottom-0 -top-[25.1169rem] left-40"
-            />
+          <div className="sm:w-[20.6369rem] sm:h-[18.4312rem] w-[9.6631rem] h-[8.3175rem] absolute sm:bottom-0 sm:-top-[25.1169rem] sm:left-40 -top-[11.5756rem] left-[4.9212rem]">
+            <img src="icons/note card-3.png" className="" />
           </div>
-          <div>
-            <img
-              src="icons/note card.svg"
-              className="absolute bottom-0 -top-[10.3125rem]"
-            />
+          <div className="sm:w-[19.2925rem] sm:h-[20.63rem] w-[9.0344rem] h-[9.6594rem] absolute sm:bottom-0 sm:-top-[10.3125rem] bottom-[2.1925rem]">
+            <img src="icons/note card-1.png" />
           </div>
-          <div>
-            <img
-              src="icons/front.svg"
-              className="absolute bottom-0 -left-[1.6563rem]"
-            />
+          <div className="sm:w-[21.25rem] sm:h-[13.25rem] w-[9.9506rem] h-[6.2044rem] absolute bottom-0 sm:-left-[1.6563rem] -left-[0.7375rem]">
+            <img src="icons/front.png" />
           </div>
-        </div>
-      </div>
-
-      {/* Mobile File Cards */}
-      <div className="block sm:hidden absolute bottom-0 left-[50%] -translate-x-[50%]">
-        <div className="relative">
-          <img src="icons/mobileBack.svg" />
-          <img
-            src="icons/mobileNoteCard2.svg"
-            className=" absolute -top-[11.1175rem] -left-[4.1912rem]"
-          />
-          <img
-            src="icons/mobileNoteCard1.svg"
-            className=" absolute bottom-[2.1925rem]"
-          />
-          <img
-            src="icons/mobileNoteCard3.svg"
-            className=" absolute -top-[11.5756rem] left-[4.9212rem]"
-          />
-          <img
-            src="icons/mobileFront.svg"
-            className="absolute bottom-0 -left-[0.7375rem]"
-          />
         </div>
       </div>
     </div>

@@ -33,7 +33,7 @@ const Section4 = () => {
     <div className="bg-[#111111] sm:h-[89.875rem] h-[77.5625rem] relative overflow-hidden">
       <div className=" hidden sm:block">
         <div className="absolute inline-block top-[7.25rem]">
-          <img src="icons/editBg.svg" />
+          <img src="icons/editBackground.png" />
         </div>
       </div>
 

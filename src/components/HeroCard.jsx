@@ -12,7 +12,7 @@ const HeroCard = () => {
           </Marquee>
         </div>
 
-        <div className="sm:hidden block absolute bottom-[5.75rem]">
+        <div className="sm:hidden block absolute bottom-[5.75rem] w-full">
           <Marquee>
             <img src="icons/infiniteScrollMAIN.png" className="w-[100vw]" />
           </Marquee>

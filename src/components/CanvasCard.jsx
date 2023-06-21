@@ -36,7 +36,7 @@ const CanvasCard = () => {
             />
           </div>
           <div className="sm:h-[14.1219rem] sm:w-[18.0081rem] w-[10.1638rem] h-[7.9706rem] absolute top-[9.9938rem] sm:top-[16.9375rem] sm:left-[5.2669rem] left-[8.3919rem]">
-            <img src="icons/Plane1.png"  />
+            <img src="icons/plane2.png"  />
           </div>
 
           {/* <img

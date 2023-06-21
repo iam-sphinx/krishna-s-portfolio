@@ -1,7 +1,23 @@
 import React from "react";
 import MiniCard from "../components/MiniCard";
-import { Fade } from "react-awesome-reveal";
+import CustomAnimation from "../utils/customAnimation";
+import { keyframes } from "@emotion/react";
+import { Reveal } from "react-awesome-reveal";
+
 const DoYouKnowCard = () => {
+  const customAnimation = keyframes`
+  from {
+    opacity: 0;
+    transform: translate3d(0px, 40px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  }
+`;
+
+
   const cardContent = [
     {
       index: "001",
@@ -62,11 +78,11 @@ const DoYouKnowCard = () => {
         it a read
       </p>
       <div className="grid md:grid-cols-3 grid-cols-1 sm:gap-[1.375rem] gap-[1rem] items-center justify-center">
-        <Fade cascade triggerOnce className="w-full h-full" damping={1}>
+        <Reveal keyframes={customAnimation} cascade damping={0.7} triggerOnce className="w-full h-full">
           {cardContent.map((item, index) => {
             return <MiniCard key={index} {...item} />;
           })}
-        </Fade>
+        </Reveal>
       </div>
     </div>
   );

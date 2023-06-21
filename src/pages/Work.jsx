@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import ProjectCard from "../components/ProjectCard";
+import CustomAnimation from "../utils/customAnimation";
 
 const Work = () => {
   const workSamples = [
@@ -54,25 +55,29 @@ const Work = () => {
         <Navbar />
 
         <div className="sm:mt-[7.563rem] mt-16 sm:mb-[6.625rem] mb-[5.25rem]">
-          <h1 className="font-Eskell_Display font-light sm:text-[5.75rem] sm:leading-[6.875rem] text-[2.125rem] leading-[2.55rem] tracking-[0.063rem] sm:mb-[4.5rem] mb-[1.125rem] text-white max-w-[78.5rem]">
-            Somewhere between staring at the screen and tilting my head the
-            magic is done.
-          </h1>
-          <p className="font-GT_America_Trial sm:text-2xl text-base text-justify text-[#86939F] sm:max-w-[54rem] max-w-[21.375rem]">
-            I specialise in crafting interfaces, products, and systems through
-            close collaboration with engineers, researchers, product managers,
-            and fellow designers. From concept to high-fidelity prototypes, I
-            create intuitive and polished experiences that captivate users.
-          </p>
+          <CustomAnimation>
+            <h1 className="font-Eskell_Display font-light sm:text-[5.75rem] sm:leading-[6.875rem] text-[2.125rem] leading-[2.55rem] tracking-[0.063rem] sm:mb-[4.5rem] mb-[1.125rem] text-white max-w-[78.5rem]">
+              Somewhere between staring at the screen and tilting my head the
+              magic is done.
+            </h1>
+            <p className="font-GT_America_Trial sm:text-2xl text-base text-justify text-[#86939F] sm:max-w-[54rem] max-w-[21.375rem]">
+              I specialise in crafting interfaces, products, and systems through
+              close collaboration with engineers, researchers, product managers,
+              and fellow designers. From concept to high-fidelity prototypes, I
+              create intuitive and polished experiences that captivate users.
+            </p>
+          </CustomAnimation>
         </div>
         {/* Projects */}
-        {workSamples.map((item, index) => {
-          return (
-            <div key={index}>
-              <ProjectCard {...item} />
-            </div>
-          );
-        })}
+      
+          {workSamples.map((item, index) => {
+            return (
+              <div key={index}>
+                <ProjectCard {...item} />
+              </div>
+            );
+          })}
+        
         <div className="mt-[7.186rem]">
           <Footer />
         </div>

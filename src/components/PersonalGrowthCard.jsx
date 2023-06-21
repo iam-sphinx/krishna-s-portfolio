@@ -1,5 +1,6 @@
 import React from "react";
 import GrowthCard from "./GrowthCard";
+import CustomAnimation from "../utils/customAnimation";
 
 const PersonalGrowthCard = () => {
   const card = [
@@ -29,7 +30,7 @@ const PersonalGrowthCard = () => {
     },
   ];
   return (
-    <div>
+    <CustomAnimation>
       <div className="flex flex-col sm:gap-[1.125rem] gap-[1.375rem] mb-[4.063rem]">
         <h1 className="font-Eskell_Display font-light text-white sm:text-5xl text-[1.5rem] leading-[1.8rem] sm:w-[35.188rem] w-[22.1875rem] sm:pr-0 pr-[0.4375rem]">
           Few of the best places I have worked in the past
@@ -67,7 +68,7 @@ const PersonalGrowthCard = () => {
         </div>
         </div>
       </div>
-    </div>
+    </CustomAnimation>
   );
 };
 

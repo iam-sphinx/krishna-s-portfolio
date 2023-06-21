@@ -64,7 +64,7 @@ const ProjectCard = (props) => {
         </div>
 
         {/* Right div */}
-        <div className="w-full py-[0.688rem] pl-[0.563rem]">
+        <div className="w-full">
           <div className="w-full h-full">
             <img
               src={props.imgSrc}

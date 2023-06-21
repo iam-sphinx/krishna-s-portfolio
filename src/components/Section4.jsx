@@ -38,7 +38,7 @@ const Section4 = () => {
       <div className="bg-[#111111] sm:h-[89.875rem] h-[77.5625rem] relative overflow-hidden">
         <div className=" hidden sm:block">
           <div className="absolute inline-block top-[7.25rem]">
-            <img src="icons/editBackground.png" loading="lazy" />
+            <img src="icons/editBackground1.png"  />
           </div>
         </div>
 
@@ -57,7 +57,7 @@ const Section4 = () => {
               <img
                 src="icons/bgimg.svg"
                 className="hidden sm:block"
-                loading="lazy"
+                
               />
             </div>
 
@@ -67,7 +67,7 @@ const Section4 = () => {
                   Check out more projects
                 </h1>
                 <div className="sm:h-auto sm:w-auto h-[0.545rem] w-[0.6056rem]">
-                  <img src="icons/right.svg" loading="lazy" />
+                  <img src="icons/right.svg"  />
                 </div>
               </div>
             </div>

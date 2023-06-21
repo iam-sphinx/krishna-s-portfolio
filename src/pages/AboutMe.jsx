@@ -32,7 +32,7 @@ const AboutMe = () => {
 
         <div className="flex justify-center items-center">
           <div className="w-[38.75rem] sm:mb-[9.239rem] mb-[4.5131rem] ">
-            <img src="icons/NavLine.svg" loading="lazy" />
+            <img src="icons/NavLine.svg"  />
           </div>
         </div>
       </div>

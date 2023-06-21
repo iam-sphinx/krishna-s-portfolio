@@ -20,7 +20,7 @@ const Footer = () => {
         <img
           src="icons/NavLine.svg"
           className="mb-[5.251rem] w-full object-cover"
-          loading="lazy"
+          
         />
       </div>
       <div className="w-full md:flex md:justify-between md:flex-row-reverse mb-6 sm:mb-0">
@@ -61,12 +61,12 @@ const Footer = () => {
               <div className="flex gap-[10px] mb-[66.82px]">
                 {/* instagram */}
                 <div className="h-[36.18px] md:h-[45px] md:w-[45px] w-[36.18px] rounded-full border-[0.36px] border-[#88969E] flex justify-center items-center cursor-pointer">
-                  <img src="icons/insta.svg" alt="" loading="lazy" />
+                  <img src="icons/insta.svg" alt=""  />
                 </div>
 
                 {/* Linkedin */}
                 <div className="h-[36.18px] md:h-[45px] md:w-[45px] w-[36.18px] rounded-full border-[0.36px] border-[#88969E] flex justify-center items-center cursor-pointer">
-                  <img src="icons/linkedin.svg" alt="" loading="lazy" />
+                  <img src="icons/linkedin.svg" alt=""  />
                 </div>
               </div>
             </div>

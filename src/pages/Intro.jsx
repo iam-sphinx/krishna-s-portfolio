@@ -33,7 +33,7 @@ const Intro = () => {
           </Link>
         </div>
         <div className="absolute bottom-0 left-[50%] translate-x-[-50%]">
-          <img src="icons/BoldLine.svg" loading="lazy" />
+          <img src="icons/BoldLine.svg"  />
         </div>
       </div>
     </div>

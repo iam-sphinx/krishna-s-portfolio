@@ -40,7 +40,7 @@ const Section5 = () => {
                 Check out more projects
               </h1>
               <div className="sm:h-auto sm:w-auto h-[0.545rem] w-[0.6056rem]">
-                <img src="icons/right.svg" loading="lazy" />
+                <img src="icons/right.svg"  />
               </div>
             </div>
           </div>
@@ -117,19 +117,19 @@ const Section5 = () => {
         <CustomAnimation>
           <div className="relative">
             <div className="sm:w-[21.0625rem] sm:h-[15rem] w-[9.8625rem] h-[7.0237rem]">
-              <img src="icons/back.png" loading="lazy" />
+              <img src="icons/back (1).png"  />
             </div>
             <div className="sm:w-[18.5575rem] sm:h-[21.79rem] w-[8.6894rem] h-[10.2031rem] absolute sm:bottom-0 sm:-top-[17.5081rem] sm:-left-[9.875rem] -top-[11.1175rem] -left-[4.1912rem]">
-              <img src="icons/note card-2.png" loading="lazy" />
+              <img src="icons/note card-2(1).png"  />
             </div>
             <div className="sm:w-[20.6369rem] sm:h-[18.4312rem] w-[9.6631rem] h-[8.3175rem] absolute sm:bottom-0 sm:-top-[25.1169rem] sm:left-40 -top-[11.5756rem] left-[4.9212rem]">
-              <img src="icons/note card-3.png" className="" loading="lazy" />
+              <img src="icons/note card-3(1).png" className=""  />
             </div>
             <div className="sm:w-[19.2925rem] sm:h-[20.63rem] w-[9.0344rem] h-[9.6594rem] absolute sm:bottom-0 sm:-top-[10.3125rem] bottom-[2.1925rem]">
-              <img src="icons/note card-1.png" loading="lazy" />
+              <img src="icons/note card-1(1).png"  />
             </div>
             <div className="sm:w-[21.25rem] sm:h-[13.25rem] w-[9.9506rem] h-[6.2044rem] absolute bottom-0 sm:-left-[1.6563rem] -left-[0.7375rem]">
-              <img src="icons/front.png" loading="lazy" />
+              <img src="icons/front1.png"  />
             </div>
           </div>
         </CustomAnimation>

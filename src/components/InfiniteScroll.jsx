@@ -18,7 +18,7 @@ const InfiniteScroll = ({array, direction, speed}) => {
                 key={index}
                 className="ml-3 font-GT_America_Trial text-normal sm:text-xl text-[1.2394rem] leading-[1.4875rem] text-[#47474D] flex gap-3"
               >
-                {item} <img src="icons/dimond.svg" loading="lazy"/>{" "}
+                {item} <img src="icons/dimond.svg" />{" "}
               </div>
             );
           })}

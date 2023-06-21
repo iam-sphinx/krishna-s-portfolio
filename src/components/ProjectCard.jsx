@@ -54,7 +54,7 @@ const ProjectCard = (props) => {
                     <img
                       src="icons/GreenArrow.svg"
                       className=""
-                      loading="lazy"
+                      
                     />
                   </div>
                 </div>
@@ -69,7 +69,7 @@ const ProjectCard = (props) => {
             <img
               src={props.imgSrc}
               className="w-full h-full object-cover"
-              loading="lazy"
+              
             />
           </div>
         </div>

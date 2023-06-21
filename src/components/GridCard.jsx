@@ -1,6 +1,13 @@
 import React from "react";
 
 const GridCard = ({ role, period, liveLink, location }) => {
+  const handleClick = () => {
+    if (liveLink) {
+      window.location.href = liveLink;
+    }
+  };
+
+  
   return (
     <div className="inline-block">
       <img src="icons/Grid.svg" className="hidden sm:block" />
@@ -37,7 +44,10 @@ const GridCard = ({ role, period, liveLink, location }) => {
               Product:
             </h1>
 
-            <div className="flex gap-[0.961rem] items-center cursor-pointer">
+            <div
+              className="flex gap-[0.961rem] items-center cursor-pointer"
+              onClick={() => handleClick()}
+            >
               <h1 className="font-GT_America_Trial font-normal sm:text-sm text-[0.625rem] leading-[1.4156rem] text-[#00030A]">
                 See live
               </h1>

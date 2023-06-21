@@ -1,23 +1,24 @@
 import React from "react";
 import { Fade, Slide } from "react-awesome-reveal";
+import CustomAnimation from "../utils/customAnimation";
 
 const AboutMeContent = () => {
   return (
     <div className="w-full ">
       <div className="flex sm:flex-row flex-col sm:justify-between ">
         <div className="w-full h-auto flex flex-col sm:justify-between">
-          <div className="sm:mb-0 mb-[41.94px]">
-            <Fade duration={1500} triggerOnce>
+          <CustomAnimation>
+            <div className="sm:mb-0 mb-[41.94px]">
               <h1 className="font-Eskell_Display font-light sm:text-5xl text-[2.125rem] leading-[4rem] text-[#86939F]">
                 So who exactly is
               </h1>
               <h1 className="font-mangal sm:text-[5.6rem] sm:leading-[6.9rem] text-[2.125rem] leading-[2.55rem] font-normal text-[#F4B747] tracking-[-1px]">
                 कृष्णा खानिकर
               </h1>
-            </Fade>
-          </div>
-          <div className="sm:mb-0 mb-5">
-            <Fade direction="left" cascade triggerOnce damping={1}>
+            </div>
+          </CustomAnimation>
+          <CustomAnimation>
+            <div className="sm:mb-0 mb-5">
               <p className="font-normal font-GT_America_Trial sm:text-[1.214rem] sm:leading-[1.7rem] text-[1rem] leading-[1.4rem] text-justify text-[#86939F] mb-5">
                 Raised and brought up in Delhi, I did my schooling in Delhi and
                 moved to Vellore to pursue electrical engineering at VIT
@@ -37,13 +38,13 @@ const AboutMeContent = () => {
                 Bangalore and Delhi since the pandemic was so erratic but that’s
                 an experience not a lot get to live very often.
               </p>
-            </Fade>
-          </div>
+            </div>
+          </CustomAnimation>
         </div>
 
         <div className="w-full h-full flex  sm:flex-row flex-col sm:items-end sm:ml-[6.438rem]">
-          <div>
-            <Fade direction="right" damping={1} cascade triggerOnce>
+          <CustomAnimation>
+            <div>
               <p className="font-GT_America_Trial sm:text-[1.214rem] sm:leading-[1.7rem] text-[1rem] leading-[1.4rem] text-justify text-[#86939F] font-normal mb-5">
                 Like any college-going student, I went for my boys' trip to
                 Vietnam where I met such amiable people and annoyed the hell out
@@ -75,8 +76,8 @@ const AboutMeContent = () => {
                 achievements and the crazy highlights of your life just like I
                 am right now.
               </p>
-            </Fade>
-          </div>
+            </div>
+          </CustomAnimation>
         </div>
       </div>
     </div>

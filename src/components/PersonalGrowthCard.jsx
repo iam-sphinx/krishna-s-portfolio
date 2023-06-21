@@ -41,7 +41,7 @@ const PersonalGrowthCard = () => {
           exciting projects.
         </p>
       </div>
-      <div className="flex gap-5 mb-[251px]">
+      <div className="flex mb-[251px] justify-between">
         <div className="relative top-[6.653rem] hidden sm:block">
           <GrowthCard {...card[0]} />
         </div>

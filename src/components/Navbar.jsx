@@ -19,7 +19,7 @@ const Navbar = () => {
               src="icons/profile.svg"
               alt=""
               className="w-full h-full object-cover"
-              loading="lazy"
+              
             />
           </div>
           <Link to="/home">
@@ -40,14 +40,14 @@ const Navbar = () => {
           src="icons/hamburger.svg"
           onClick={() => handleClick()}
           className="cursor-pointer"
-          loading="lazy"
+          
         />
       </div>
       <div className="w-full">
         <img
           src="icons/NavLine.svg"
           className="w-full object-cover"
-          loading="lazy"
+          
         />
       </div>
     </div>

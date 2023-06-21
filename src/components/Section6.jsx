@@ -24,19 +24,19 @@ const Section6 = () => {
         <Marquee speed={35}>
           <div className="flex sm:gap-4 gap-[0.3675rem] sm:mr-4 mr-[0.3675rem]">
             <div className="sm:w-[14.75rem] sm:h-[18.875rem] overflow-hidden h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary1.png" loading="lazy" />
+              <img src="icons/gallary_1.png"  />
             </div>
             <div className="sm:w-[14.75rem] sm:h-[18.875rem] overflow-hidden h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary2.png" loading="lazy" />
+              <img src="icons/gallary_2.png"  />
             </div>
             <div className="sm:w-[14.75rem] sm:h-[18.875rem] overflow-hidden h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary3.png" loading="lazy" />
+              <img src="icons/gallary_3.png"  />
             </div>
             <div className="sm:w-[14.75rem] sm:h-[18.875rem] overflow-hidden h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary4.png" loading="lazy" />
+              <img src="icons/gallary_4.png"  />
             </div>
             <div className="sm:w-[14.75rem] sm:h-[18.875rem] overflow-hidden h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary5.png" loading="lazy" />
+              <img src="icons/gallary_5.png"  />
             </div>
           </div>
         </Marquee>
@@ -44,19 +44,19 @@ const Section6 = () => {
         <Marquee direction="right" speed={35}>
           <div className="flex sm:gap-4 gap-[0.3675rem] sm:mt-4 mt-[0.7806rem] sm:mr-4 mr-[0.3675rem]">
             <div className="sm:w-[14.75rem] sm:h-[18.875rem] overflow-hidden h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary6.png" loading="lazy" />
+              <img src="icons/gallary_6.png"  />
             </div>
             <div className="sm:w-[14.75rem] sm:h-[18.875rem] overflow-hidden h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary7.png" loading="lazy" />
+              <img src="icons/gallary_7.png"  />
             </div>
             <div className="sm:w-[14.75rem] sm:h-[18.875rem] overflow-hidden h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary8.png" loading="lazy" />
+              <img src="icons/gallary_8.png"  />
             </div>
             <div className="sm:w-[14.75rem] sm:h-[18.875rem] overflow-hidden h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary9.png" loading="lazy" />
+              <img src="icons/gallary_9.png"  />
             </div>
             <div className="sm:w-[14.75rem] sm:h-[18.875rem] overflow-hidden h-[6.9313rem] w-[5.3481rem]">
-              <img src="icons/gallary10.png" loading="lazy" />
+              <img src="icons/gallary_10.png"  />
             </div>
           </div>
         </Marquee>

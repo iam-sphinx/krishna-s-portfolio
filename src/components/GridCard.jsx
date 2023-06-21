@@ -1,10 +1,17 @@
 import React from "react";
 
 const GridCard = ({ role, period, liveLink, location }) => {
+  const handleClick = () => {
+    if (liveLink) {
+      window.location.href = liveLink;
+    }
+  };
+
+  
   return (
     <div className="inline-block">
-      <img src="icons/Grid.svg" className="hidden sm:block" loading="lazy"/>
-      <img src="icons/smallGrid.svg" className="block sm:hidden" loading="lazy"/>
+      <img src="icons/Grid.svg" className="hidden sm:block" />
+      <img src="icons/smallGrid.svg" className="block sm:hidden" />
       <div className="h-auto w-full border border-[#2C2C2D]">
         <div className="sm:h-[3.75rem] h-[2.6544rem] flex  items-center pl-4 border-b border-black">
           <h1 className="font-Eskell_Display font-light sm:text-2xl text-[1rem] leading-[1rem] text-[#00030A]">
@@ -37,12 +44,15 @@ const GridCard = ({ role, period, liveLink, location }) => {
               Product:
             </h1>
 
-            <div className="flex gap-[0.961rem] items-center cursor-pointer">
+            <div
+              className="flex gap-[0.961rem] items-center cursor-pointer"
+              onClick={() => handleClick()}
+            >
               <h1 className="font-GT_America_Trial font-normal sm:text-sm text-[0.625rem] leading-[1.4156rem] text-[#00030A]">
                 See live
               </h1>
               <div className="w-[7.96px] h-[7.96px] sm:h-auto sm:w-auto">
-                <img src="icons/GreenArrow.svg" loading="lazy"/>
+                <img src="icons/GreenArrow.svg" />
               </div>
             </div>
           </div>

@@ -4,21 +4,25 @@ import ProjectCardHome from "./ProjectCardHome";
 import CustomAnimation from "../utils/customAnimation";
 
 const Section4 = () => {
+  const handleClick = () => {
+    window.location.href = "https://github.com/krishnakhanikar11";
+  };
+
   const cards = [
     {
       title: "KryptVault",
       desc: "Blockchain crypto-trading",
-      link: "https://github.com/krishnakhanikar11/krypt",
+      link: "https://kypytvault.netlify.app/",
     },
     {
       title: "Beatshop",
       desc: "E-Commerce website",
-      link: "https://github.com/krishnakhanikar11/beatShop-Ecommerce",
+      link: "https://beat-shop.vercel.app/",
     },
     {
       title: "Vellbe",
       desc: "Wellness center",
-      link: "https://github.com/krishnakhanikar11/vellbeFinal",
+      link: "https://www.vellbe.life/",
     },
     {
       title: "Virgo",
@@ -27,10 +31,12 @@ const Section4 = () => {
     {
       title: "TrackME",
       desc: "Workout tracker using NLP",
+      link: "https://github.com/krishnakhanikar11/Workout-tracker-",
     },
     {
       title: "Paratop",
       desc: "Stock market news alerting system",
+      link: "https://github.com/krishnakhanikar11/Stock-Trading-News-Alert",
     },
   ];
   return (
@@ -38,7 +44,7 @@ const Section4 = () => {
       <div className="bg-[#111111] sm:h-[89.875rem] h-[77.5625rem] relative overflow-hidden">
         <div className=" hidden sm:block">
           <div className="absolute inline-block top-[7.25rem]">
-            <img src="icons/editBackground1.png"  />
+            <img src="icons/editBackground1.png" />
           </div>
         </div>
 
@@ -54,20 +60,21 @@ const Section4 = () => {
             </div>
 
             <div className="sm:h-[1.125rem] sm:w-[1.1875rem] h-[0.5625rem] w-[0.4375rem] sm:border border-[0.0319rem] border-[#306FF6] bg-white flex justify-center items-center absolute top-0 sm:-right-[2.125rem] -right-[0.875rem] rounded-[0.125rem] rounded-r-[0.625rem]">
-              <img
-                src="icons/bgimg.svg"
-                className="hidden sm:block"
-                
-              />
+              <img src="icons/bgimg.svg" className="hidden sm:block" />
             </div>
 
-            <div className="sm:w-[13.875rem] sm:h-[2.8125rem] w-[12.0938rem] h-[2.8125rem] sm:rounded-lg rounded-[0.625rem] border-[0.05rem] border-[#373737] bg-[#211E21] absolute sm:-bottom-[5.6875rem] -bottom-[5.375rem] left-[50%] translate-x-[-50%] flex justify-center items-center">
+            <div
+              className="sm:w-[13.875rem] sm:h-[2.8125rem] w-[12.0938rem] h-[2.8125rem] sm:rounded-lg rounded-[0.625rem] border-[0.05rem] border-[#373737] bg-[#211E21] absolute sm:-bottom-[5.6875rem] -bottom-[5.375rem] left-[50%] translate-x-[-50%] flex justify-center items-center"
+              onClick={() => {
+                handleClick();
+              }}
+            >
               <div className="flex justify-center items-center sm:gap-[0.8712rem] gap-[0.8069rem]">
                 <h1 className="font-GT_America_Trial font-normal sm:text-sm sm:leading-[1.3125rem] text-[0.75rem] leading-[1.3125rem] tracking-[1%] text-center text-[#999999]">
                   Check out more projects
                 </h1>
                 <div className="sm:h-auto sm:w-auto h-[0.545rem] w-[0.6056rem]">
-                  <img src="icons/right.svg"  />
+                  <img src="icons/right.svg" />
                 </div>
               </div>
             </div>
@@ -89,16 +96,15 @@ const Section4 = () => {
         <div className="absolute sm:top-[49.9rem] sm:w-[61.6231rem]  left-[50%] translate-x-[-50%]  top-[21.0625rem] ">
           <div className="sm:h-auto h-[49.25rem] overflow-hidden">
             <div className=" items-center justify-center  flex sm:flex-wrap flex-nowrap flex-col sm:flex-row sm:gap-4 gap-5">
-            <CustomAnimation>
-
-              {cards.map((item, index) => {
-                return (
-                  <div key={index}>
-                    <ProjectCardHome {...item} />
-                  </div>
-                );
-              })}
-            </CustomAnimation>
+              <CustomAnimation>
+                {cards.map((item, index) => {
+                  return (
+                    <div key={index}>
+                      <ProjectCardHome {...item} />
+                    </div>
+                  );
+                })}
+              </CustomAnimation>
             </div>
           </div>
         </div>

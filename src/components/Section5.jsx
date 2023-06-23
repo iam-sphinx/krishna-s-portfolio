@@ -1,7 +1,14 @@
 import React from "react";
 import CustomAnimation from "../utils/customAnimation";
+import { useNavigate } from "react-router-dom";
 
 const Section5 = () => {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    const data = { section: "do-you-know" };
+    navigate("/about_me", { state: data });
+  };
+
   return (
     <div className="w-full sm:h-[80.5rem] h-[47.9375rem]  overflow-hidden relative ">
       <div
@@ -32,22 +39,27 @@ const Section5 = () => {
             "linear-gradient(180deg, rgba(0, 3, 10, 0) 0%, #00030A 69.01%)",
         }}
       ></div>
-      <div className="absolute sm:top-[27.75rem] top-[17.375rem] left-[50%] translate-x-[-50%]">
+      <div className="absolute sm:top-[27.75rem] top-[17.375rem] left-[50%] translate-x-[-50%] z-20">
         <CustomAnimation>
-          <div className="sm:w-[13.875rem] sm:h-[2.8125rem] w-[11.2188rem] h-[2.8125rem] rounded-lg border-[0.05rem] border-[#373737] bg-[#211E21]  flex justify-center items-center">
+          <div
+            className="sm:w-[13.875rem] sm:h-[2.8125rem] w-[12.0938rem] h-[2.8125rem] sm:rounded-lg rounded-[0.625rem] border-[0.05rem] border-[#373737] bg-[#211E21] absolute sm:-bottom-[5.6875rem] -bottom-[5.375rem] left-[50%] translate-x-[-50%] flex justify-center items-center"
+            onClick={() => {
+              handleClick();
+            }}
+          >
             <div className="flex justify-center items-center sm:gap-[0.8712rem] gap-[0.8069rem]">
               <h1 className="font-GT_America_Trial font-normal sm:text-sm sm:leading-[1.3125rem] text-[0.75rem] leading-[1.3125rem] tracking-[1%] text-center text-[#999999]">
                 Check out more projects
               </h1>
               <div className="sm:h-auto sm:w-auto h-[0.545rem] w-[0.6056rem]">
-                <img src="icons/right.svg"  />
+                <img src="icons/right.svg" />
               </div>
             </div>
           </div>
         </CustomAnimation>
       </div>
       {/* Lines */}
-      <div className="relative sm:top-[6.6875rem] top-[2.9031rem] ">
+      <div className="relative sm:top-[6.6875rem] top-[2.9031rem]  ">
         <div className="w-full h-0 sm:border-[0.1131rem] border-[0.0387rem] sm:mb-[2.875rem] mb-[1.0219rem]  border-[#BD0D0D4D]"></div>
         <div className="w-full h-0 sm:border-[0.0944rem] border-[0.51px] sm:mb-[2.875rem] mb-[1.0219rem] border-[#FFFFFF0D]"></div>
         <div className="w-full h-0 sm:border-[0.0944rem] border-[0.51px] sm:mb-[2.875rem] mb-[1.0219rem] border-[#FFFFFF0D]"></div>
@@ -117,19 +129,19 @@ const Section5 = () => {
         <CustomAnimation>
           <div className="relative">
             <div className="sm:w-[21.0625rem] sm:h-[15rem] w-[9.8625rem] h-[7.0237rem]">
-              <img src="icons/back (1).png"  />
+              <img src="icons/back (1).png" />
             </div>
             <div className="sm:w-[18.5575rem] sm:h-[21.79rem] w-[8.6894rem] h-[10.2031rem] absolute sm:bottom-0 sm:-top-[17.5081rem] sm:-left-[9.875rem] -top-[11.1175rem] -left-[4.1912rem]">
-              <img src="icons/note card-2(1).png"  />
+              <img src="icons/note card-2(1).png" />
             </div>
             <div className="sm:w-[20.6369rem] sm:h-[18.4312rem] w-[9.6631rem] h-[8.3175rem] absolute sm:bottom-0 sm:-top-[25.1169rem] sm:left-40 -top-[11.5756rem] left-[4.9212rem]">
-              <img src="icons/note card-3(1).png" className=""  />
+              <img src="icons/note card-3(1).png" className="" />
             </div>
             <div className="sm:w-[19.2925rem] sm:h-[20.63rem] w-[9.0344rem] h-[9.6594rem] absolute sm:bottom-0 sm:-top-[10.3125rem] bottom-[2.1925rem]">
-              <img src="icons/note card-1(1).png"  />
+              <img src="icons/note card-1(1).png" />
             </div>
             <div className="sm:w-[21.25rem] sm:h-[13.25rem] w-[9.9506rem] h-[6.2044rem] absolute bottom-0 sm:-left-[1.6563rem] -left-[0.7375rem]">
-              <img src="icons/front1.png"  />
+              <img src="icons/front1.png" />
             </div>
           </div>
         </CustomAnimation>

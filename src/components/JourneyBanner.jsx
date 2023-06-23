@@ -7,7 +7,7 @@ const JourneyBanner = () => {
   const journey = [
     {
       company: "Firebond",
-      date: "DEC 2022 - MAY 2023",
+      type: "Fulltime",
       listItems: [
         "Streamlined user flow for the platform",
         "Designed complete design system for the web app incorporating user research and usability test findings",
@@ -17,7 +17,7 @@ const JourneyBanner = () => {
     },
     {
       company: "Paycrunch product designer",
-      date: "SEPT 2021 - JULY 2022",
+      type: "Fulltime",
       listItems: [
         "Researched user trends in the fintech sector to implement Go-to-market strategies and the design of the app by following a lean startup approach.",
         "Designed and developed the front-end of PayCrunch’s offical website.",
@@ -27,7 +27,7 @@ const JourneyBanner = () => {
     },
     {
       company: "Ministry of IT: Govt of India",
-      date: "JUNE 2022 - JULY 2023",
+      type: "Internship",
       listItems: [
         "Improved the end-to-end experience of E-prosecution app by conducting usability reviews, identifying UX issues, and proposing design recommendations.",
         "Collaborated with senior management on multiple functions including login process, facial recognition, and attendance system and ensured consistency through documentation of use cases and UI elements.",
@@ -57,11 +57,7 @@ const JourneyBanner = () => {
             return (
               <WorkCard
                 key={index}
-                company={item.company}
-                date={item.date}
-                listItems={item.listItems}
-                current={item.current}
-                last={item.last}
+               {...item}
               />
             );
           })}

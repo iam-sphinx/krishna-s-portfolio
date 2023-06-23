@@ -14,7 +14,7 @@ const PersonalGrowthCard = () => {
     },
     {
       title: "Firebond",
-      position: "PRODUCT DESIGN",
+      position: "PRODUCT DEVELOPMENT",
       role: "Product manager",
       type: "Fulltime",
       location: "Singapore",

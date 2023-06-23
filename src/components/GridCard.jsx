@@ -41,7 +41,7 @@ const GridCard = ({ role, type, liveLink, location }) => {
         <div className="sm:h-[3.188rem] h-[2.2563rem] sm:pl-4 pl-[0.7075rem] flex items-center">
           <div className="flex sm:gap-[0.75rem] gap-[0.5306rem] items-center">
             <h1 className="font-GT_America_Trial font-normal text-xs text-[#88939E]">
-              Product:
+              Company:
             </h1>
 
             <div

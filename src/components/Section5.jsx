@@ -49,7 +49,7 @@ const Section5 = () => {
           >
             <div className="flex justify-center items-center sm:gap-[0.8712rem] gap-[0.8069rem]">
               <h1 className="font-GT_America_Trial font-normal sm:text-sm sm:leading-[1.3125rem] text-[0.75rem] leading-[1.3125rem] tracking-[1%] text-center text-[#999999]">
-                Check out more projects
+                Check out more notes
               </h1>
               <div className="sm:h-auto sm:w-auto h-[0.545rem] w-[0.6056rem]">
                 <img src="icons/right.svg" />

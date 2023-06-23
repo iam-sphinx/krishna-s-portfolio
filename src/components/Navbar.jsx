@@ -22,7 +22,7 @@ const Navbar = () => {
               
             />
           </div>
-          <Link to="/home">
+          <Link to="/">
             <div>
               <h1 className="text-white font-normal font-GT_America_Trial text-base">
                 Krishna <span className="font-Mangal">खानिकर</span>

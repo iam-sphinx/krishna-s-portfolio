@@ -12,10 +12,6 @@ import SidebarPage from "./pages/SidebarPage";
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <Intro />,
-  },
-  {
     path: "/contact",
     element: <Contact />,
   },
@@ -32,7 +28,7 @@ const router = createBrowserRouter([
     element: <AboutMe />,
   },
   {
-    path: "/home",
+    path: "/",
     element: <Home />,
   },
   {

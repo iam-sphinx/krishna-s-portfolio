@@ -2,6 +2,11 @@ import React from "react";
 import CustomAnimation from "../utils/customAnimation";
 
 const ProjectCard = (props) => {
+  const handleClick = (site) => {
+    if (site) {
+      window.location.href = site;
+    }
+  };
   return (
     <CustomAnimation>
       <div className="w-full sm:h-[20.875rem] h-[31.5969rem] bg-[#0D0F13] relative mb-[3rem] flex flex-col sm:flex-row justify-between border border-[#29333C] px-[0.313rem]">
@@ -47,15 +52,14 @@ const ProjectCard = (props) => {
                   <h1 className="sm:text-base text-[0.875rem] leading-[0.875rem] text-[#88939E]">
                     Live
                   </h1>
-                  <div className="flex gap-[0.649rem] cursor-pointer items-center justify-center">
+                  <div
+                    className="flex gap-[0.649rem] cursor-pointer items-center justify-center"
+                    onClick={() => handleClick(props.link)}
+                  >
                     <h1 className=" sm:text-[1.25rem] sm:leading-[2rem] text-[1rem] leading-[1rem] text-white sm:mt-0 mt-[0.625rem] whitespace-nowrap underline cursor-pointer">
-                      {props.Project}
+                      See Live
                     </h1>
-                    <img
-                      src="icons/GreenArrow.svg"
-                      className=""
-                      
-                    />
+                    <img src="icons/GreenArrow.svg" className="" />
                   </div>
                 </div>
               </div>
@@ -66,11 +70,7 @@ const ProjectCard = (props) => {
         {/* Right div */}
         <div className="w-full">
           <div className="w-full h-full">
-            <img
-              src={props.imgSrc}
-              className="w-full h-full object-cover"
-              
-            />
+            <img src={props.imgSrc} className="w-full h-full object-cover" />
           </div>
         </div>
       </div>

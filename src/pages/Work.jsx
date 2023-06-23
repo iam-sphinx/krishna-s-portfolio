@@ -14,8 +14,8 @@ const Work = () => {
         "A Web 3.0 application that allows users to send transactions through the blockchain.",
       company: "KryptVault",
       period: "Nov-Dec 2023",
-      Project: "See live",
       imgSrc: "icons/KryptVault1.png",
+      link: "https://kypytvault.netlify.app/",
     },
     {
       title: "Vellbe.life",
@@ -24,8 +24,8 @@ const Work = () => {
         "I was solely responsible for designing and developing the website which would meet your business requirement.",
       company: "Vellbe life",
       period: "Nov-Dec 2022",
-      Project: "See live",
       imgSrc: "icons/VellbeLife1.png",
+      link: "https://www.vellbe.life/",
     },
     {
       title: "Virgo",
@@ -34,7 +34,6 @@ const Work = () => {
         "It is a user-friendly IT based  solution for restaurants, and other public places to be used as a digital menu and interactive tool to order food and drinks.",
       company: "Virgo",
       period: "Jan-Nov 2021",
-      Project: "See live",
       imgSrc: "icons/Virgo1.png",
     },
     {
@@ -44,8 +43,8 @@ const Work = () => {
         "An e-commerce app with the ability to add and edit products on the go using Sanity, with advanced cart with complete integration with Stripe to cover real payments.",
       company: "Beatshop",
       period: "Nov-Dec 2023",
-      Project: "See live",
       imgSrc: "icons/BeatShop1.png",
+      link: "https://beat-shop.vercel.app/",
     },
   ];
   return (

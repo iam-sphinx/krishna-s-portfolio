@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
+import { useLocation } from "react-router-dom";
 import Header from "../components/Header";
 import CollageDisplay from "../components/CollageDisplay";
 import AboutMeContent from "../components/AboutMeContent";
@@ -8,6 +9,22 @@ import Footer from "../components/Footer";
 import DoYouKnowCard from "../components/DoYouKnowCard";
 
 const AboutMe = () => {
+  const [section, setSection] = useState("");
+  const location = useLocation();
+  const data = location.state;
+
+  useEffect(() => {
+    if (data) {
+      const element = document.getElementById(data.section);
+      if (element) {
+        window.scrollTo({
+          behavior: "smooth",
+          top: element ? element.offsetTop : 0,
+        });
+      }
+    }
+  }, [data]);
+
   return (
     <div className="min-h-screen overflow-x-hidden bg-[#00030a] flex justify-center">
       <div className="sm:w-[94.5rem] w-[24.375rem] flex flex-col relative">
@@ -45,7 +62,10 @@ const AboutMe = () => {
           <JourneyBanner />
         </div>
 
-        <div className="flex-[1] sm:px-[7.25rem] px-6 mb-[13.5rem]">
+        <div
+          className="flex-[1] sm:px-[7.25rem] px-6 mb-[13.5rem]"
+          id="do-you-know"
+        >
           <DoYouKnowCard />
         </div>
 

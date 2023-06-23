@@ -7,7 +7,7 @@ const Mail = () => {
   const handleCopyClick = () => {
     // Use the clipboard package to copy the text to the clipboard
     const clipboard = new Clipboard(copyButtonRef.current, {
-      text: () => "krishnakhanikarkhanikar.com",
+      text: () => "krishnakhanikarkhanikar@gmail.com",
     });
   };
 
@@ -24,7 +24,7 @@ const Mail = () => {
 
         {/* mail */}
         <h1 className="font-light font-GT_America_Trial text-sm md:text-[22px] leading-[26.4px] text-[#86939F] mr-[51.15px]">
-          krishnakhanikarkhanikar.com
+          krishnakhanikarkhanikar@gmail.com
         </h1>
 
         {/* paste */}

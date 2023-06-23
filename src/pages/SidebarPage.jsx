@@ -5,7 +5,6 @@ import { useLocation } from "react-router-dom";
 const SidebarPage = () => {
   const location = useLocation();
   const data = location.state;
-  console.log(data.url);
 
   let route = "";
   if (data.url.includes("/home")) {

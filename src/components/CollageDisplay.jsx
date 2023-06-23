@@ -5,10 +5,10 @@ import CustomAnimation from "../utils/customAnimation";
 const CollageDisplay = () => {
   const skills = [
     "Frontend developer",
-    "Next.js",
-    "Figma",
-    "React.js",
-    "TailwindCSS",
+    "Product Designer",
+    "Storyteller",
+    "Problem Solver",
+    "Passionate"
   ];
   return (
 

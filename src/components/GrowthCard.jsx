@@ -1,7 +1,7 @@
 import React from "react";
 import GridCard from "./GridCard";
 
-const GrowthCard = ({ title, position, role, period, location, liveLink }) => {
+const GrowthCard = ({ title, position, role, type, location, liveLink }) => {
   return (
     <div
       className="rounded-md sm:w-[25.813rem] sm:h-[28.875rem] h-[20.4375rem] w-[18.27rem] overflow-hidden bg-[#eee7dc] sm:pt-[2.844rem] sm:pl-[0.875rem] sm:pr-[1.75rem] sm:pb-[2rem] pt-[2.0025rem] pl-[0.6194rem] pr-[1.2388rem]"
@@ -33,7 +33,7 @@ const GrowthCard = ({ title, position, role, period, location, liveLink }) => {
         <div>
           <GridCard
             role={role}
-            period={period}
+            type={type}
             liveLink={liveLink}
             location={location}
           />

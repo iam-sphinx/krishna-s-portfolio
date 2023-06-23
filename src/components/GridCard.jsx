@@ -1,6 +1,13 @@
 import React from "react";
 
-const GridCard = ({ role, period, liveLink, location }) => {
+const GridCard = ({ role, type, liveLink, location }) => {
+  const handleClick = () => {
+    if (liveLink) {
+      window.location.href = liveLink;
+    }
+  };
+
+  
   return (
     <div className="inline-block">
       <img src="icons/Grid.svg" className="hidden sm:block" />
@@ -14,10 +21,10 @@ const GridCard = ({ role, period, liveLink, location }) => {
         <div className="sm:h-[3.313rem] h-[2.3444rem] sm:pl-4 pl-[0.7075rem] flex  items-center border-b border-black">
           <div className="flex sm:gap-[1.125rem] gap-[0.7963rem] items-center">
             <h1 className="font-GT_America_Trial font-normal sm:text-xs text-[0.625rem] leading-[1.4156rem] text-[#88939E]">
-              Period:
+              type:
             </h1>
             <h1 className="font-GT_America_Trial font-normal sm:text-sm text-[0.625rem] leading-[1.4156rem] text-[#00030A]">
-              {period}
+              {type}
             </h1>
           </div>
         </div>
@@ -37,7 +44,10 @@ const GridCard = ({ role, period, liveLink, location }) => {
               Product:
             </h1>
 
-            <div className="flex gap-[0.961rem] items-center cursor-pointer">
+            <div
+              className="flex gap-[0.961rem] items-center cursor-pointer"
+              onClick={() => handleClick()}
+            >
               <h1 className="font-GT_America_Trial font-normal sm:text-sm text-[0.625rem] leading-[1.4156rem] text-[#00030A]">
                 See live
               </h1>

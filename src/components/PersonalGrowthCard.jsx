@@ -1,5 +1,6 @@
 import React from "react";
 import GrowthCard from "./GrowthCard";
+import CustomAnimation from "../utils/customAnimation";
 
 const PersonalGrowthCard = () => {
   const card = [
@@ -7,29 +8,29 @@ const PersonalGrowthCard = () => {
       title: "Paycrunch",
       position: "PRODUCT DESIGN HEAD",
       role: "Product designer",
-      period: "Oct 2020 - May 2022",
+      type: "Fulltime",
       location: "Bengaluru, India",
-      liveLink: "",
+      liveLink: "https://www.paycrunch.in/",
     },
     {
       title: "Firebond",
       position: "PRODUCT DESIGN",
       role: "Product manager",
-      period: "Dec 2022 - May 2023",
+      type: "Fulltime",
       location: "Singapore",
-      liveLink: "",
+      liveLink: "https://www.firebond.xyz/",
     },
     {
       title: "NIC",
       position: "FRONTEND DEVELOPER",
       role: "Frontend developer",
-      period: "June 2022 - July 2022",
+      type: "Internship",
       location: "Bengaluru, India",
-      liveLink: "",
+      liveLink: "https://www.nic.in/",
     },
   ];
   return (
-    <div>
+    <CustomAnimation>
       <div className="flex flex-col sm:gap-[1.125rem] gap-[1.375rem] mb-[4.063rem]">
         <h1 className="font-Eskell_Display font-light text-white sm:text-5xl text-[1.5rem] leading-[1.8rem] sm:w-[35.188rem] w-[22.1875rem] sm:pr-0 pr-[0.4375rem]">
           Few of the best places I have worked in the past
@@ -40,7 +41,7 @@ const PersonalGrowthCard = () => {
           exciting projects.
         </p>
       </div>
-      <div className="flex gap-5 mb-[251px]">
+      <div className="flex mb-[251px] justify-between">
         <div className="relative top-[6.653rem] hidden sm:block">
           <GrowthCard {...card[0]} />
         </div>
@@ -52,6 +53,8 @@ const PersonalGrowthCard = () => {
         </div>
 
         {/* For Mobile Screens */}
+        <div className="block sm:hidden w-full">
+
         <div className="flex gap-[1.1675rem] overflow-scroll">
           <div>
             <GrowthCard {...card[0]} />
@@ -63,8 +66,9 @@ const PersonalGrowthCard = () => {
             <GrowthCard {...card[2]} />
           </div>
         </div>
+        </div>
       </div>
-    </div>
+    </CustomAnimation>
   );
 };
 

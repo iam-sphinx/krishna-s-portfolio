@@ -39,7 +39,7 @@ const Section5 = () => {
             "linear-gradient(180deg, rgba(0, 3, 10, 0) 0%, #00030A 69.01%)",
         }}
       ></div>
-      <div className="absolute sm:top-[27.75rem] top-[17.375rem] left-[50%] translate-x-[-50%] z-20">
+      <div className="absolute sm:top-[26.75rem] top-[17.375rem] left-[50%] translate-x-[-50%] z-20">
         <CustomAnimation>
           <div
             className="sm:w-[13.875rem] sm:h-[2.8125rem] w-[12.0938rem] h-[2.8125rem] sm:rounded-lg rounded-[0.625rem] border-[0.05rem] border-[#373737] bg-[#211E21] absolute sm:-bottom-[5.6875rem] -bottom-[5.375rem] left-[50%] translate-x-[-50%] flex justify-center items-center"

@@ -7,7 +7,7 @@ const PersonalGrowthCard = () => {
     {
       title: "Paycrunch",
       position: "PRODUCT DESIGN HEAD",
-      role: "Product Designer",
+      role: "Product designer",
       type: "Fulltime",
       location: "Bengaluru, India",
       liveLink: "https://www.paycrunch.in/",
@@ -15,7 +15,7 @@ const PersonalGrowthCard = () => {
     {
       title: "Firebond",
       position: "PRODUCT DEVELOPMENT",
-      role: "Product Devlopment",
+      role: "Product develop",
       type: "Fulltime",
       location: "Singapore",
       liveLink: "https://www.firebond.xyz/",
@@ -23,7 +23,7 @@ const PersonalGrowthCard = () => {
     {
       title: "NIC",
       position: "FRONTEND DEVELOPER",
-      role: "Frontend Developer",
+      role: "Frontend developer",
       type: "Internship",
       location: "Bengaluru, India",
       liveLink: "https://www.nic.in/",
